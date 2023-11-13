@@ -1,10 +1,10 @@
 ﻿using FluentValidation;
-using System.Threading.Tasks;
-using System.Threading;
 using OMSCore.Application.DTOs.Authenticate;
 using OMSCore.Application.Interfaces.Repositories;
+using System.Threading;
+using System.Threading.Tasks;
 
-namespace OMSCore.Application.Features.Authenticate.Commands
+namespace OMSCore.Application.Validators
 {
     public class SignInCommandValidator : AbstractValidator<SignIn>
     {

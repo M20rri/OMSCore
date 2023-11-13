@@ -28,5 +28,11 @@ namespace OMSCore.Infrastructure.Persistence.Repositories
             return await _userMaster
               .AnyAsync(p => p.UserId == model.Username && p.Password == model.Password);
         }
+
+        public async Task<UserMaster> SignInAsync(SignIn model)
+        {
+            return await _userMaster
+              .FirstOrDefaultAsync(p => p.UserId == model.Username && p.Password == model.Password);
+        }
     }
 }

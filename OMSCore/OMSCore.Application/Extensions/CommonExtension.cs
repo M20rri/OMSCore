@@ -6,8 +6,8 @@ namespace OMSCore.Application.Extensions
 {
     public static class CommonExtension
     {
-        internal static string md5Key = "*1234567890!@#$%&*14344*Boutiqaat";
-        internal static string EncryptPass(this string Password)
+        public static string md5Key = "*1234567890!@#$%&*14344*Boutiqaat";
+        public static string EncryptPass(this string Password)
         {
             try
             {
@@ -33,7 +33,7 @@ namespace OMSCore.Application.Extensions
             }
         }
 
-        internal static string DecryptPass(this string Password)
+        public static string DecryptPass(this string Password)
         {
             try
             {

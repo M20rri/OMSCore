@@ -31,7 +31,7 @@ namespace OMSCore.Infrastructure.Persistence
 
             services.AddTransient(typeof(IGenericRepositoryAsync<>), typeof(GenericRepositoryAsync<>));
             services.AddTransient<IUserMasterRepositoryAsync, UserMasterRepositoryAsync>();
-
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             #endregion Repositories
         }
     }

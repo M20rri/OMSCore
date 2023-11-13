@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Dynamic.Core;
+using System.Linq.Expressions;
 using System.Threading.Tasks;
 
 namespace OMSCore.Infrastructure.Persistence.Repository
@@ -69,6 +70,16 @@ namespace OMSCore.Infrastructure.Persistence.Repository
             return await _dbContext
                  .Set<T>()
                  .ToListAsync();
+        }
+
+        public async Task<IEnumerable<T>> FindAllByConditionAsync(Expression<Func<T, bool>> expression)
+        {
+            return await _dbContext.Set<T>().Where(expression).ToListAsync();
+        }
+
+        public async Task<T> FindByConditionAsync(Expression<Func<T, bool>> expression)
+        {
+            return await _dbContext.Set<T>().Where(expression).FirstOrDefaultAsync();
         }
     }
 }
