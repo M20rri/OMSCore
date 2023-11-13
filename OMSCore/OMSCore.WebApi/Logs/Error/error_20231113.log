@@ -314,3 +314,5 @@ MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of 
 2023-11-13T18:18:48.1550107+02:00 [ERR] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/api/authentcate/signIn" responded 500 in 4210.9403 ms
 2023-11-13T18:22:16.3717943+02:00 [ERR] (OMSCore.WebApi.Middlewares.ErrorHandlerMiddleware) ["Username is required"]
 2023-11-13T18:22:28.9055115+02:00 [ERR] (OMSCore.WebApi.Middlewares.ErrorHandlerMiddleware) ["Invalid login Credentials"]
+2023-11-13T19:15:26.0366603+02:00 [ERR] (OMSCore.WebApi.Middlewares.ErrorHandlerMiddleware) ["Invalid login Credentials"]
+2023-11-13T19:15:38.9576879+02:00 [ERR] (OMSCore.WebApi.Middlewares.ErrorHandlerMiddleware) ["Username is required"]

@@ -10,7 +10,7 @@ namespace OMSCore.Infrastructure.Shared
     {
         public static void AddSharedInfrastructure(this IServiceCollection services, IConfiguration _config)
         {
-            services.Configure<MailSettings>(_config.GetSection("MailSettings"));
+            //services.Configure<JWTSettings>(_config.GetSection("JWTSettings"));
             services.AddTransient<IUserMasterService, UserMasterService>();
         }
     }

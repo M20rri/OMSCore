@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using OMSCore.Domain.Common;
 using OMSCore.Domain.Entities;
 using System;
 using System.Threading;
@@ -840,24 +839,6 @@ namespace OMSCore.Infrastructure.Persistence.Contexts
 
         public virtual DbSet<tmppdcl> tmppdcls { get; set; }
         #endregion
-
-        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
-        {
-            foreach (var entry in ChangeTracker.Entries<AuditableBaseEntity>())
-            {
-                switch (entry.State)
-                {
-                    case EntityState.Added:
-                        entry.Entity.Created = DateTime.UtcNow;
-                        break;
-
-                    case EntityState.Modified:
-                        entry.Entity.LastModified = DateTime.UtcNow;
-                        break;
-                }
-            }
-            return base.SaveChangesAsync(cancellationToken);
-        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
