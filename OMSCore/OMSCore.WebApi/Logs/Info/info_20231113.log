@@ -69,3 +69,7 @@
 2023-11-13T18:24:51.7326231+02:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/swagger/index.html" responded 200 in 3535.1464 ms
 2023-11-13T18:24:51.9564924+02:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 112.4267 ms
 2023-11-13T18:24:54.7422986+02:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/api/authentcate/signIn" responded 200 in 6555.2612 ms
+2023-11-13T18:37:26.5458066+02:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/swagger/index.html" responded 200 in 210.5599 ms
+2023-11-13T18:37:26.7297448+02:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 71.2596 ms
+2023-11-13T18:41:34.1698928+02:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/UserMaster/api/get-all" responded 401 in 29.6498 ms
+2023-11-13T18:41:46.0908450+02:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/UserMaster/api/get-all" responded 200 in 3709.4114 ms

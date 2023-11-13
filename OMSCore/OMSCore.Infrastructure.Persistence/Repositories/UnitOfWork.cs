@@ -1,8 +1,6 @@
 ﻿using OMSCore.Application.Interfaces;
 using OMSCore.Application.Interfaces.Repositories;
-using OMSCore.Domain.Entities;
 using OMSCore.Infrastructure.Persistence.Contexts;
-using OMSCore.Infrastructure.Persistence.Repository;
 using System.Threading.Tasks;
 
 namespace OMSCore.Infrastructure.Persistence.Repositories
@@ -11,7 +9,6 @@ namespace OMSCore.Infrastructure.Persistence.Repositories
     {
         private readonly ApplicationDbContext _dbContext;
         public IUserMasterRepositoryAsync UserMasterRepositoryAsync => new UserMasterRepositoryAsync(_dbContext);
-        //public IGenericRepositoryAsync<UserMaster> UserMasterRepositoryAsync => new GenericRepositoryAsync<UserMaster>(_dbContext);
         public UnitOfWork(ApplicationDbContext dbContext)
         {
             _dbContext = dbContext;

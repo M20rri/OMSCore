@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using OMSCore.Application.Features.UserMaster;
+using OMSCore.Application.Interfaces;
 using System.Net;
 using System.Threading.Tasks;
 
@@ -11,10 +11,14 @@ namespace OMSCore.WebApi.Controllers.v1
     [ApiVersion("1.0")]
     public class UserMasterController : BaseApiController
     {
+        private readonly IUserMasterService _iSender;
+        public UserMasterController(IUserMasterService iSender) => _iSender = iSender;
+
         [HttpGet, Route("api/get-all")]
         public async Task<IActionResult> GetAll()
         {
-            return CustomResult(await Mediator.Send(new GetUserMasterQuery()), HttpStatusCode.OK);
+            var response = await _iSender.GetAll();
+            return CustomResult(response, HttpStatusCode.OK);
         }
     }
 }

@@ -6,6 +6,7 @@ using OMSCore.Application.Interfaces;
 using OMSCore.Application.Validators;
 using OMSCore.Domain.Entities;
 using OMSCore.Domain.Settings;
+using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
@@ -22,6 +23,12 @@ namespace OMSCore.Infrastructure.Shared.Services
             _mapper = mapper;
             _unitOfWork = unitOfWork;
             _jwtSetting = jwtSetting;
+        }
+
+        public async Task<List<UserMaster>> GetAll()
+        {
+            var userMasters = await _unitOfWork.UserMasterRepositoryAsync.GetAllAsync();
+            return userMasters.ToList();
         }
 
         public async Task<UserMaster> GetByUserNameAsync(string userId)

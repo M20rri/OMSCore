@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using OMSCore.Application.Interfaces;
 using OMSCore.Domain.Common;
 using OMSCore.Domain.Entities;
 using System;
