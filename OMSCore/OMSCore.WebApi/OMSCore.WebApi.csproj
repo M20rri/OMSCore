@@ -50,8 +50,4 @@
     <ProjectReference Include="..\OMSCore.Infrastructure.Shared\OMSCore.Infrastructure.Shared.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\v1\" />
-  </ItemGroup>
-
 </Project>
