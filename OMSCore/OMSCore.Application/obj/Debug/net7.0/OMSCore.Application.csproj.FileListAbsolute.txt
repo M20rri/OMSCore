@@ -1,0 +1,15 @@
+D:\Training\OMSCore\OMSCore\OMSCore.Application\obj\Debug\net7.0\OMSCore.Application.csproj.AssemblyReference.cache
+D:\Training\OMSCore\OMSCore\OMSCore.Application\obj\Debug\net7.0\OMSCore.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Training\OMSCore\OMSCore\OMSCore.Application\obj\Debug\net7.0\OMSCore.Application.AssemblyInfoInputs.cache
+D:\Training\OMSCore\OMSCore\OMSCore.Application\obj\Debug\net7.0\OMSCore.Application.AssemblyInfo.cs
+D:\Training\OMSCore\OMSCore\OMSCore.Application\obj\Debug\net7.0\OMSCore.Application.csproj.CoreCompileInputs.cache
+D:\Training\OMSCore\OMSCore\OMSCore.Application\bin\Debug\net7.0\OMSCore.Application.deps.json
+D:\Training\OMSCore\OMSCore\OMSCore.Application\bin\Debug\net7.0\OMSCore.Application.dll
+D:\Training\OMSCore\OMSCore\OMSCore.Application\bin\Debug\net7.0\OMSCore.Application.pdb
+D:\Training\OMSCore\OMSCore\OMSCore.Application\bin\Debug\net7.0\OMSCore.Domain.dll
+D:\Training\OMSCore\OMSCore\OMSCore.Application\bin\Debug\net7.0\OMSCore.Domain.pdb
+D:\Training\OMSCore\OMSCore\OMSCore.Application\obj\Debug\net7.0\OMSCore.Application.csproj.CopyComplete
+D:\Training\OMSCore\OMSCore\OMSCore.Application\obj\Debug\net7.0\OMSCore.Application.dll
+D:\Training\OMSCore\OMSCore\OMSCore.Application\obj\Debug\net7.0\refint\OMSCore.Application.dll
+D:\Training\OMSCore\OMSCore\OMSCore.Application\obj\Debug\net7.0\OMSCore.Application.pdb
+D:\Training\OMSCore\OMSCore\OMSCore.Application\obj\Debug\net7.0\ref\OMSCore.Application.dll

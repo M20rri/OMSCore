@@ -1,0 +1,17 @@
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Shared\obj\Debug\net7.0\OMSCore.Infrastructure.Shared.csproj.AssemblyReference.cache
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Shared\obj\Debug\net7.0\OMSCore.Infrastructure.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Shared\obj\Debug\net7.0\OMSCore.Infrastructure.Shared.AssemblyInfoInputs.cache
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Shared\obj\Debug\net7.0\OMSCore.Infrastructure.Shared.AssemblyInfo.cs
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Shared\obj\Debug\net7.0\OMSCore.Infrastructure.Shared.csproj.CoreCompileInputs.cache
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Shared\bin\Debug\net7.0\OMSCore.Infrastructure.Shared.deps.json
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Shared\bin\Debug\net7.0\OMSCore.Infrastructure.Shared.dll
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Shared\bin\Debug\net7.0\OMSCore.Infrastructure.Shared.pdb
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Shared\bin\Debug\net7.0\OMSCore.Application.dll
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Shared\bin\Debug\net7.0\OMSCore.Domain.dll
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Shared\bin\Debug\net7.0\OMSCore.Application.pdb
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Shared\bin\Debug\net7.0\OMSCore.Domain.pdb
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Shared\obj\Debug\net7.0\OMSCore.Infrastructure.Shared.csproj.CopyComplete
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Shared\obj\Debug\net7.0\OMSCore.Infrastructure.Shared.dll
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Shared\obj\Debug\net7.0\refint\OMSCore.Infrastructure.Shared.dll
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Shared\obj\Debug\net7.0\OMSCore.Infrastructure.Shared.pdb
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Shared\obj\Debug\net7.0\ref\OMSCore.Infrastructure.Shared.dll

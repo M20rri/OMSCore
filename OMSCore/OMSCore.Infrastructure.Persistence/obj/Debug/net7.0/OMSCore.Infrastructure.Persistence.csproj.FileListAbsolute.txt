@@ -1,0 +1,17 @@
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\obj\Debug\net7.0\OMSCore.Infrastructure.Persistence.csproj.AssemblyReference.cache
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\obj\Debug\net7.0\OMSCore.Infrastructure.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\obj\Debug\net7.0\OMSCore.Infrastructure.Persistence.AssemblyInfoInputs.cache
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\obj\Debug\net7.0\OMSCore.Infrastructure.Persistence.AssemblyInfo.cs
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\obj\Debug\net7.0\OMSCore.Infrastructure.Persistence.csproj.CoreCompileInputs.cache
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\bin\Debug\net7.0\OMSCore.Infrastructure.Persistence.deps.json
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\bin\Debug\net7.0\OMSCore.Infrastructure.Persistence.dll
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\bin\Debug\net7.0\OMSCore.Infrastructure.Persistence.pdb
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\bin\Debug\net7.0\OMSCore.Application.dll
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\bin\Debug\net7.0\OMSCore.Domain.dll
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\bin\Debug\net7.0\OMSCore.Application.pdb
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\bin\Debug\net7.0\OMSCore.Domain.pdb
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\obj\Debug\net7.0\OMSCore.Infrastructure.Persistence.csproj.CopyComplete
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\obj\Debug\net7.0\OMSCore.Infrastructure.Persistence.dll
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\obj\Debug\net7.0\refint\OMSCore.Infrastructure.Persistence.dll
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\obj\Debug\net7.0\OMSCore.Infrastructure.Persistence.pdb
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\obj\Debug\net7.0\ref\OMSCore.Infrastructure.Persistence.dll

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "IKGZLIutSEP9/irw8SgaZA778nc/lNkEnM+S/87Wpf0=",
+  "Source": "OMSCore.WebApi",
+  "BasePath": "_content/OMSCore.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,227 @@
+2023-11-13T12:38:26.3199576+02:00 [WRN] () An error occurred starting the application
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[OMSCore.Application.Features.Authenticate.Commands.SignInCommand,OMSCore.Application.DTOs.Authenticate.SingInToken] Lifetime: Transient ImplementationType: OMSCore.Application.Features.Authenticate.Commands.SignInHandler': Unable to resolve service for type 'OMSCore.Domain.Settings.JWTSettings' while attempting to activate 'OMSCore.Application.Features.Authenticate.Commands.SignInHandler'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[OMSCore.Application.Features.Authenticate.Commands.SignInCommand,OMSCore.Application.DTOs.Authenticate.SingInToken] Lifetime: Transient ImplementationType: OMSCore.Application.Features.Authenticate.Commands.SignInHandler': Unable to resolve service for type 'OMSCore.Domain.Settings.JWTSettings' while attempting to activate 'OMSCore.Application.Features.Authenticate.Commands.SignInHandler'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'OMSCore.Domain.Settings.JWTSettings' while attempting to activate 'OMSCore.Application.Features.Authenticate.Commands.SignInHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Training\OMSCore\OMSCore\OMSCore.WebApi\Program.cs:line 39
+2023-11-13T12:39:39.3748027+02:00 [WRN] () An error occurred starting the application
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[OMSCore.Application.Features.Authenticate.Commands.SignInCommand,OMSCore.Application.DTOs.Authenticate.SingInToken] Lifetime: Transient ImplementationType: OMSCore.Application.Features.Authenticate.Commands.SignInHandler': Unable to resolve service for type 'OMSCore.Domain.Settings.JWTSettings' while attempting to activate 'OMSCore.Application.Features.Authenticate.Commands.SignInHandler'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[OMSCore.Application.Features.Authenticate.Commands.SignInCommand,OMSCore.Application.DTOs.Authenticate.SingInToken] Lifetime: Transient ImplementationType: OMSCore.Application.Features.Authenticate.Commands.SignInHandler': Unable to resolve service for type 'OMSCore.Domain.Settings.JWTSettings' while attempting to activate 'OMSCore.Application.Features.Authenticate.Commands.SignInHandler'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'OMSCore.Domain.Settings.JWTSettings' while attempting to activate 'OMSCore.Application.Features.Authenticate.Commands.SignInHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Training\OMSCore\OMSCore\OMSCore.WebApi\Program.cs:line 39
+2023-11-13T12:42:19.8239646+02:00 [WRN] () An error occurred starting the application
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[OMSCore.Application.Features.Authenticate.Commands.SignInCommand,OMSCore.Application.DTOs.Authenticate.SingInToken] Lifetime: Transient ImplementationType: OMSCore.Application.Features.Authenticate.Commands.SignInHandler': Unable to resolve service for type 'OMSCore.Domain.Settings.JWTSettings' while attempting to activate 'OMSCore.Application.Features.Authenticate.Commands.SignInHandler'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[OMSCore.Application.Features.Authenticate.Commands.SignInCommand,OMSCore.Application.DTOs.Authenticate.SingInToken] Lifetime: Transient ImplementationType: OMSCore.Application.Features.Authenticate.Commands.SignInHandler': Unable to resolve service for type 'OMSCore.Domain.Settings.JWTSettings' while attempting to activate 'OMSCore.Application.Features.Authenticate.Commands.SignInHandler'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'OMSCore.Domain.Settings.JWTSettings' while attempting to activate 'OMSCore.Application.Features.Authenticate.Commands.SignInHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Training\OMSCore\OMSCore\OMSCore.WebApi\Program.cs:line 37
+2023-11-13T12:42:30.1200618+02:00 [WRN] () An error occurred starting the application
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[OMSCore.Application.Features.Authenticate.Commands.SignInCommand,OMSCore.Application.DTOs.Authenticate.SingInToken] Lifetime: Transient ImplementationType: OMSCore.Application.Features.Authenticate.Commands.SignInHandler': Unable to resolve service for type 'OMSCore.Domain.Settings.JWTSettings' while attempting to activate 'OMSCore.Application.Features.Authenticate.Commands.SignInHandler'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[OMSCore.Application.Features.Authenticate.Commands.SignInCommand,OMSCore.Application.DTOs.Authenticate.SingInToken] Lifetime: Transient ImplementationType: OMSCore.Application.Features.Authenticate.Commands.SignInHandler': Unable to resolve service for type 'OMSCore.Domain.Settings.JWTSettings' while attempting to activate 'OMSCore.Application.Features.Authenticate.Commands.SignInHandler'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'OMSCore.Domain.Settings.JWTSettings' while attempting to activate 'OMSCore.Application.Features.Authenticate.Commands.SignInHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Training\OMSCore\OMSCore\OMSCore.WebApi\Program.cs:line 37
+2023-11-13T12:42:35.9457037+02:00 [WRN] () An error occurred starting the application
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[OMSCore.Application.Features.Authenticate.Commands.SignInCommand,OMSCore.Application.DTOs.Authenticate.SingInToken] Lifetime: Transient ImplementationType: OMSCore.Application.Features.Authenticate.Commands.SignInHandler': Unable to resolve service for type 'OMSCore.Domain.Settings.JWTSettings' while attempting to activate 'OMSCore.Application.Features.Authenticate.Commands.SignInHandler'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[OMSCore.Application.Features.Authenticate.Commands.SignInCommand,OMSCore.Application.DTOs.Authenticate.SingInToken] Lifetime: Transient ImplementationType: OMSCore.Application.Features.Authenticate.Commands.SignInHandler': Unable to resolve service for type 'OMSCore.Domain.Settings.JWTSettings' while attempting to activate 'OMSCore.Application.Features.Authenticate.Commands.SignInHandler'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'OMSCore.Domain.Settings.JWTSettings' while attempting to activate 'OMSCore.Application.Features.Authenticate.Commands.SignInHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Training\OMSCore\OMSCore\OMSCore.WebApi\Program.cs:line 37
+2023-11-13T12:43:51.3683715+02:00 [WRN] () An error occurred starting the application
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[OMSCore.Application.Features.Authenticate.Commands.SignInCommand,OMSCore.Application.DTOs.Authenticate.SingInToken] Lifetime: Transient ImplementationType: OMSCore.Application.Features.Authenticate.Commands.SignInHandler': Unable to resolve service for type 'OMSCore.Domain.Settings.JWTSettings' while attempting to activate 'OMSCore.Application.Features.Authenticate.Commands.SignInHandler'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[OMSCore.Application.Features.Authenticate.Commands.SignInCommand,OMSCore.Application.DTOs.Authenticate.SingInToken] Lifetime: Transient ImplementationType: OMSCore.Application.Features.Authenticate.Commands.SignInHandler': Unable to resolve service for type 'OMSCore.Domain.Settings.JWTSettings' while attempting to activate 'OMSCore.Application.Features.Authenticate.Commands.SignInHandler'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'OMSCore.Domain.Settings.JWTSettings' while attempting to activate 'OMSCore.Application.Features.Authenticate.Commands.SignInHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Training\OMSCore\OMSCore\OMSCore.WebApi\Program.cs:line 37
+2023-11-13T12:44:07.6621297+02:00 [WRN] () An error occurred starting the application
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[OMSCore.Application.Features.Authenticate.Commands.SignInCommand,OMSCore.Application.DTOs.Authenticate.SingInToken] Lifetime: Transient ImplementationType: OMSCore.Application.Features.Authenticate.Commands.SignInHandler': Unable to resolve service for type 'OMSCore.Domain.Settings.JWTSettings' while attempting to activate 'OMSCore.Application.Features.Authenticate.Commands.SignInHandler'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[OMSCore.Application.Features.Authenticate.Commands.SignInCommand,OMSCore.Application.DTOs.Authenticate.SingInToken] Lifetime: Transient ImplementationType: OMSCore.Application.Features.Authenticate.Commands.SignInHandler': Unable to resolve service for type 'OMSCore.Domain.Settings.JWTSettings' while attempting to activate 'OMSCore.Application.Features.Authenticate.Commands.SignInHandler'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'OMSCore.Domain.Settings.JWTSettings' while attempting to activate 'OMSCore.Application.Features.Authenticate.Commands.SignInHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Training\OMSCore\OMSCore\OMSCore.WebApi\Program.cs:line 37
+2023-11-13T12:55:45.9152228+02:00 [WRN] () An error occurred starting the application
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[OMSCore.Application.Features.Authenticate.Commands.SignInCommand,OMSCore.Application.DTOs.Authenticate.SingInToken] Lifetime: Transient ImplementationType: OMSCore.Application.Features.Authenticate.Commands.SignInHandler': Unable to resolve service for type 'OMSCore.Domain.Settings.JWTSettings' while attempting to activate 'OMSCore.Application.Features.Authenticate.Commands.SignInHandler'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[OMSCore.Application.Features.Authenticate.Commands.SignInCommand,OMSCore.Application.DTOs.Authenticate.SingInToken] Lifetime: Transient ImplementationType: OMSCore.Application.Features.Authenticate.Commands.SignInHandler': Unable to resolve service for type 'OMSCore.Domain.Settings.JWTSettings' while attempting to activate 'OMSCore.Application.Features.Authenticate.Commands.SignInHandler'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'OMSCore.Domain.Settings.JWTSettings' while attempting to activate 'OMSCore.Application.Features.Authenticate.Commands.SignInHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Training\OMSCore\OMSCore\OMSCore.WebApi\Program.cs:line 36
+2023-11-13T13:03:06.4855145+02:00 [WRN] () An error occurred starting the application
+System.TypeLoadException: Method 'Create' in type 'MySql.Data.EntityFrameworkCore.Query.Internal.MySQLSqlTranslatingExpressionVisitorFactory' from assembly 'MySql.Data.EntityFrameworkCore, Version=8.0.22.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' does not have an implementation.
+   at MySql.Data.EntityFrameworkCore.Extensions.MySQLServiceCollectionExtensions.AddEntityFrameworkMySQL(IServiceCollection services)
+   at MySql.Data.EntityFrameworkCore.Infrastructure.Internal.MySQLOptionsExtension.ApplyServices(IServiceCollection services)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.ApplyServices(IDbContextOptions options, ServiceCollection services)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.<GetOrAdd>g__BuildServiceProvider|4_1(IDbContextOptions _, ValueTuple`2 arguments)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.<>c.<GetOrAdd>b__4_0(IDbContextOptions contextOptions, ValueTuple`2 tuples)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.GetOrAdd(IDbContextOptions options, Boolean providerRequired)
+   at Microsoft.EntityFrameworkCore.DbContext..ctor(DbContextOptions options)
+   at OMSCore.Infrastructure.Persistence.Contexts.ApplicationDbContext..ctor(DbContextOptions`1 options, IDateTimeService dateTime, ILoggerFactory loggerFactory) in D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\Contexts\ApplicationDbContext.cs:line 19
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.ConstructorInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Program.<Main>$(String[] args) in D:\Training\OMSCore\OMSCore\OMSCore.WebApi\Program.cs:line 49
+2023-11-13T13:03:39.0852200+02:00 [WRN] () An error occurred starting the application
+System.TypeLoadException: Method 'Create' in type 'MySql.Data.EntityFrameworkCore.Query.Internal.MySQLSqlTranslatingExpressionVisitorFactory' from assembly 'MySql.Data.EntityFrameworkCore, Version=8.0.22.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' does not have an implementation.
+   at MySql.Data.EntityFrameworkCore.Extensions.MySQLServiceCollectionExtensions.AddEntityFrameworkMySQL(IServiceCollection services)
+   at MySql.Data.EntityFrameworkCore.Infrastructure.Internal.MySQLOptionsExtension.ApplyServices(IServiceCollection services)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.ApplyServices(IDbContextOptions options, ServiceCollection services)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.<GetOrAdd>g__BuildServiceProvider|4_1(IDbContextOptions _, ValueTuple`2 arguments)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.<>c.<GetOrAdd>b__4_0(IDbContextOptions contextOptions, ValueTuple`2 tuples)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.GetOrAdd(IDbContextOptions options, Boolean providerRequired)
+   at Microsoft.EntityFrameworkCore.DbContext..ctor(DbContextOptions options)
+   at OMSCore.Infrastructure.Persistence.Contexts.ApplicationDbContext..ctor(DbContextOptions`1 options, IDateTimeService dateTime, ILoggerFactory loggerFactory) in D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\Contexts\ApplicationDbContext.cs:line 19
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.ConstructorInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Program.<Main>$(String[] args) in D:\Training\OMSCore\OMSCore\OMSCore.WebApi\Program.cs:line 49
+2023-11-13T13:05:19.0678522+02:00 [WRN] () An error occurred starting the application
+System.TypeLoadException: Method 'Create' in type 'MySql.Data.EntityFrameworkCore.Query.Internal.MySQLSqlTranslatingExpressionVisitorFactory' from assembly 'MySql.Data.EntityFrameworkCore, Version=8.0.22.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' does not have an implementation.
+   at MySql.Data.EntityFrameworkCore.Extensions.MySQLServiceCollectionExtensions.AddEntityFrameworkMySQL(IServiceCollection services)
+   at MySql.Data.EntityFrameworkCore.Infrastructure.Internal.MySQLOptionsExtension.ApplyServices(IServiceCollection services)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.ApplyServices(IDbContextOptions options, ServiceCollection services)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.<GetOrAdd>g__BuildServiceProvider|4_1(IDbContextOptions _, ValueTuple`2 arguments)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.<>c.<GetOrAdd>b__4_0(IDbContextOptions contextOptions, ValueTuple`2 tuples)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.GetOrAdd(IDbContextOptions options, Boolean providerRequired)
+   at Microsoft.EntityFrameworkCore.DbContext..ctor(DbContextOptions options)
+   at OMSCore.Infrastructure.Persistence.Contexts.ApplicationDbContext..ctor(DbContextOptions`1 options, IDateTimeService dateTime, ILoggerFactory loggerFactory) in D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\Contexts\ApplicationDbContext.cs:line 19
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.ConstructorInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Program.<Main>$(String[] args) in D:\Training\OMSCore\OMSCore\OMSCore.WebApi\Program.cs:line 49
+2023-11-13T13:14:16.7179030+02:00 [WRN] (Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware) Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-11-13T13:42:37.4506019+02:00 [WRN] (Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware) Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-11-13T13:43:25.2068548+02:00 [ERR] (OMSCore.WebApi.Middlewares.ErrorHandlerMiddleware) ["Invalid login Credentials"]
+2023-11-13T13:44:00.3847689+02:00 [ERR] (OMSCore.WebApi.Middlewares.ErrorHandlerMiddleware) ["Username is required"]
+2023-11-13T13:48:21.3484922+02:00 [WRN] (Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware) Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-11-13T13:49:37.8256367+02:00 [WRN] (Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware) Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-11-13T13:51:06.1911674+02:00 [WRN] (Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware) Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-11-13T14:27:25.1061836+02:00 [ERR] (OMSCore.WebApi.Middlewares.ErrorHandlerMiddleware) ["Invalid login Credentials"]
