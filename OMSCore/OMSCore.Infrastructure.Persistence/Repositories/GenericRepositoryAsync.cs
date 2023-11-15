@@ -2,7 +2,6 @@
 using OMSCore.Application.Interfaces;
 using OMSCore.Infrastructure.Persistence.Contexts;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Dynamic.Core;
 using System.Threading.Tasks;
@@ -23,26 +22,26 @@ namespace OMSCore.Infrastructure.Persistence.Repository
             return await _dbContext.Set<T>().FindAsync(id);
         }
 
-        public async Task<IEnumerable<T>> GetPagedReponseAsync(int pageNumber, int pageSize)
+        public async Task<IQueryable<T>> GetPagedReponseAsync(int pageNumber, int pageSize)
         {
-            return await _dbContext
+            return _dbContext
                 .Set<T>()
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)
                 .AsNoTracking()
-                .ToListAsync();
+                .AsQueryable();
         }
 
-        public async Task<IEnumerable<T>> GetPagedAdvancedReponseAsync(int pageNumber, int pageSize, string orderBy, string fields)
+        public async Task<IQueryable<T>> GetPagedAdvancedReponseAsync(int pageNumber, int pageSize, string orderBy, string fields)
         {
-            return await _dbContext
+            return _dbContext
                 .Set<T>()
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)
                 .Select<T>("new(" + fields + ")")
                 .OrderBy(orderBy)
                 .AsNoTracking()
-                .ToListAsync();
+                .AsQueryable();
         }
 
         public async Task<T> AddAsync(T entity)
@@ -64,11 +63,12 @@ namespace OMSCore.Infrastructure.Persistence.Repository
             await _dbContext.SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<T>> GetAllAsync()
+        public async Task<IQueryable<T>> GetAllAsync()
         {
-            return await _dbContext
+            return _dbContext
                  .Set<T>()
-                 .ToListAsync();
+                 .AsNoTracking()
+                 .AsQueryable();
         }
     }
 }
