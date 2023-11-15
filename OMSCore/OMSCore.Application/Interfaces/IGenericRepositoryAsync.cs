@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace OMSCore.Application.Interfaces
@@ -8,11 +9,11 @@ namespace OMSCore.Application.Interfaces
     {
         Task<T> GetByIdAsync(Guid id);
 
-        Task<IEnumerable<T>> GetAllAsync();
+        Task<IQueryable<T>> GetAllAsync();
 
-        Task<IEnumerable<T>> GetPagedReponseAsync(int pageNumber, int pageSize);
+        Task<IQueryable<T>> GetPagedReponseAsync(int pageNumber, int pageSize);
 
-        Task<IEnumerable<T>> GetPagedAdvancedReponseAsync(int pageNumber, int pageSize, string orderBy, string fields);
+        Task<IQueryable<T>> GetPagedAdvancedReponseAsync(int pageNumber, int pageSize, string orderBy, string fields);
 
         Task<T> AddAsync(T entity);
 

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using OMSCore.Application.DTOs.UserMaster;
 using OMSCore.Domain.Entities;
 
 namespace OMSCore.Application.Mappings
@@ -10,6 +11,7 @@ namespace OMSCore.Application.Mappings
             //CreateMap<Position, GetPositionsViewModel>().ReverseMap();
             //CreateMap<Employee, GetEmployeesViewModel>().ReverseMap();
             //CreateMap<CreatePositionCommand, Position>();
+            CreateMap<UserMaster, UserMasterResponse>();
         }
     }
 }
