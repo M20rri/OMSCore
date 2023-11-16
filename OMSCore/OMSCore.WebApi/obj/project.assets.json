@@ -19,19 +19,6 @@
           }
         }
       },
-      "AutoBogus/2.13.1": {
-        "type": "package",
-        "dependencies": {
-          "Bogus": "31.0.3",
-          "System.Data.DataSetExtensions": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/AutoBogus.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/AutoBogus.dll": {}
-        }
-      },
       "AutoMapper/12.0.0": {
         "type": "package",
         "dependencies": {
@@ -101,19 +88,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Azure.Identity.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Bogus/34.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/Bogus.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Bogus.dll": {
             "related": ".xml"
           }
         }
@@ -360,22 +334,6 @@
         "runtime": {
           "lib/net7.0/LinqKit.Microsoft.EntityFrameworkCore.dll": {
             "related": ".xml"
-          }
-        }
-      },
-      "MailKit/3.4.3": {
-        "type": "package",
-        "dependencies": {
-          "MimeKit": "3.4.3"
-        },
-        "compile": {
-          "lib/net6.0/MailKit.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/MailKit.dll": {
-            "related": ".pdb;.xml"
           }
         }
       },
@@ -1616,25 +1574,6 @@
           }
         }
       },
-      "MimeKit/3.4.3": {
-        "type": "package",
-        "dependencies": {
-          "Portable.BouncyCastle": "1.9.0",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
-          "System.Security.Cryptography.Pkcs": "6.0.0",
-          "System.Text.Encoding.CodePages": "6.0.0"
-        },
-        "compile": {
-          "lib/net6.0/MimeKit.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/MimeKit.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Mono.TextTemplating/2.2.1": {
         "type": "package",
         "dependencies": {
@@ -1821,19 +1760,6 @@
         },
         "runtime": {
           "lib/net7.0/Pomelo.EntityFrameworkCore.MySql.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Portable.BouncyCastle/1.9.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
             "related": ".xml"
           }
         }
@@ -2163,15 +2089,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Data.DataSetExtensions/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard2.0/System.Data.DataSetExtensions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Data.DataSetExtensions.dll": {}
-        }
-      },
       "System.Data.SqlClient/4.8.3": {
         "type": "package",
         "dependencies": {
@@ -2245,20 +2162,17 @@
           }
         }
       },
-      "System.Formats.Asn1/6.0.0": {
+      "System.Formats.Asn1/5.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.Formats.Asn1.dll": {
+          "lib/netstandard2.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/System.Formats.Asn1.dll": {
+          "lib/netstandard2.0/System.Formats.Asn1.dll": {
             "related": ".xml"
           }
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.IdentityModel.Tokens.Jwt/6.24.0": {
@@ -2493,31 +2407,6 @@
         },
         "runtimeTargets": {
           "runtimes/win/lib/netcoreapp3.0/System.Security.Cryptography.Cng.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
-        }
-      },
-      "System.Security.Cryptography.Pkcs/6.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Formats.Asn1": "6.0.0"
-        },
-        "compile": {
-          "lib/net6.0/System.Security.Cryptography.Pkcs.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/System.Security.Cryptography.Pkcs.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -2773,25 +2662,6 @@
         "runtime": {
           "bin/placeholder/OMSCore.Infrastructure.Persistence.dll": {}
         }
-      },
-      "OMSCore.Infrastructure.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "AutoBogus": "2.13.1",
-          "Bogus": "34.0.2",
-          "MailKit": "3.4.3",
-          "Microsoft.Extensions.Logging": "7.0.0",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "7.0.0",
-          "MimeKit": "3.4.3",
-          "OMSCore.Application": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/OMSCore.Infrastructure.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/OMSCore.Infrastructure.Shared.dll": {}
-        }
       }
     }
   },
@@ -2810,23 +2680,6 @@
         "lib/net6.0/HealthChecks.SqlServer.xml",
         "lib/netstandard2.0/HealthChecks.SqlServer.dll",
         "lib/netstandard2.0/HealthChecks.SqlServer.xml"
-      ]
-    },
-    "AutoBogus/2.13.1": {
-      "sha512": "9bvwy/Y53M/AWXzYaClv0jU9Xg/Ycyth3cQuUFWZRw5Dv4UsHV00iSrDplcheG6l5mL5SI/eif7X2INhuBvjQw==",
-      "type": "package",
-      "path": "autobogus/2.13.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "autobogus.2.13.1.nupkg.sha512",
-        "autobogus.nuspec",
-        "lib/net40/AutoBogus.dll",
-        "lib/net452/AutoBogus.dll",
-        "lib/netstandard1.3/AutoBogus.dll",
-        "lib/netstandard2.0/AutoBogus.dll",
-        "logo.png"
       ]
     },
     "AutoMapper/12.0.0": {
@@ -2894,25 +2747,6 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
-      ]
-    },
-    "Bogus/34.0.2": {
-      "sha512": "2KQAuMn3fLAQ2r6jeiffZnpv0bi3GCW3iRB2v1KeHIEBu8MNTh9dBlLTZwGvM0pr+9doKkU8L5JgCURmTmT88A==",
-      "type": "package",
-      "path": "bogus/34.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "bogus.34.0.2.nupkg.sha512",
-        "bogus.nuspec",
-        "lib/net40/Bogus.dll",
-        "lib/net40/Bogus.xml",
-        "lib/net6.0/Bogus.dll",
-        "lib/net6.0/Bogus.xml",
-        "lib/netstandard1.3/Bogus.dll",
-        "lib/netstandard1.3/Bogus.xml",
-        "lib/netstandard2.0/Bogus.dll",
-        "lib/netstandard2.0/Bogus.xml"
       ]
     },
     "BouncyCastle.Cryptography/2.2.1": {
@@ -3219,36 +3053,6 @@
         "lib/net7.0/LinqKit.Microsoft.EntityFrameworkCore.xml",
         "linqkit.microsoft.entityframeworkcore.7.1.4.nupkg.sha512",
         "linqkit.microsoft.entityframeworkcore.nuspec"
-      ]
-    },
-    "MailKit/3.4.3": {
-      "sha512": "Iewef8mcE1B1LrVudxQjQ0LcriPPeTbxmWMoHQzFS+P6TpEY2eVDbdKdB0Qnbmqr/5w7WfK2mNWuoSX9pI470g==",
-      "type": "package",
-      "path": "mailkit/3.4.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icons/mailkit-50.png",
-        "lib/net462/MailKit.dll",
-        "lib/net462/MailKit.pdb",
-        "lib/net462/MailKit.xml",
-        "lib/net47/MailKit.dll",
-        "lib/net47/MailKit.pdb",
-        "lib/net47/MailKit.xml",
-        "lib/net48/MailKit.dll",
-        "lib/net48/MailKit.pdb",
-        "lib/net48/MailKit.xml",
-        "lib/net6.0/MailKit.dll",
-        "lib/net6.0/MailKit.pdb",
-        "lib/net6.0/MailKit.xml",
-        "lib/netstandard2.0/MailKit.dll",
-        "lib/netstandard2.0/MailKit.pdb",
-        "lib/netstandard2.0/MailKit.xml",
-        "lib/netstandard2.1/MailKit.dll",
-        "lib/netstandard2.1/MailKit.pdb",
-        "lib/netstandard2.1/MailKit.xml",
-        "mailkit.3.4.3.nupkg.sha512",
-        "mailkit.nuspec"
       ]
     },
     "MediatR/11.0.0": {
@@ -4960,36 +4764,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "MimeKit/3.4.3": {
-      "sha512": "7TSAcziEwk0bGWODpFTQASghXfYNBBa5VdM8KO4s5SBp5LYgIVXcQsdLBpPQ2XhZW74wfaX8RBUMs1GTMlLJcA==",
-      "type": "package",
-      "path": "mimekit/3.4.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icons/mimekit-50.png",
-        "lib/net462/MimeKit.dll",
-        "lib/net462/MimeKit.pdb",
-        "lib/net462/MimeKit.xml",
-        "lib/net47/MimeKit.dll",
-        "lib/net47/MimeKit.pdb",
-        "lib/net47/MimeKit.xml",
-        "lib/net48/MimeKit.dll",
-        "lib/net48/MimeKit.pdb",
-        "lib/net48/MimeKit.xml",
-        "lib/net6.0/MimeKit.dll",
-        "lib/net6.0/MimeKit.pdb",
-        "lib/net6.0/MimeKit.xml",
-        "lib/netstandard2.0/MimeKit.dll",
-        "lib/netstandard2.0/MimeKit.pdb",
-        "lib/netstandard2.0/MimeKit.xml",
-        "lib/netstandard2.1/MimeKit.dll",
-        "lib/netstandard2.1/MimeKit.pdb",
-        "lib/netstandard2.1/MimeKit.xml",
-        "mimekit.3.4.3.nupkg.sha512",
-        "mimekit.nuspec"
-      ]
-    },
     "Mono.TextTemplating/2.2.1": {
       "sha512": "KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "type": "package",
@@ -5189,21 +4963,6 @@
         "lib/net7.0/Pomelo.EntityFrameworkCore.MySql.xml",
         "pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
         "pomelo.entityframeworkcore.mysql.nuspec"
-      ]
-    },
-    "Portable.BouncyCastle/1.9.0": {
-      "sha512": "eZZBCABzVOek+id9Xy04HhmgykF0wZg9wpByzrWN7q8qEI0Qen9b7tfd7w8VA3dOeesumMG7C5ZPy0jk7PSRHw==",
-      "type": "package",
-      "path": "portable.bouncycastle/1.9.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/BouncyCastle.Crypto.dll",
-        "lib/net40/BouncyCastle.Crypto.xml",
-        "lib/netstandard2.0/BouncyCastle.Crypto.dll",
-        "lib/netstandard2.0/BouncyCastle.Crypto.xml",
-        "portable.bouncycastle.1.9.0.nupkg.sha512",
-        "portable.bouncycastle.nuspec"
       ]
     },
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {
@@ -5644,25 +5403,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Data.DataSetExtensions/4.5.0": {
-      "sha512": "221clPs1445HkTBZPL+K9sDBdJRB8UN8rgjO3ztB0CQ26z//fmJXtlsr6whGatscsKGBrhJl5bwJuKSA8mwFOw==",
-      "type": "package",
-      "path": "system.data.datasetextensions/4.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net45/_._",
-        "lib/netstandard2.0/System.Data.DataSetExtensions.dll",
-        "ref/net45/_._",
-        "ref/netstandard2.0/System.Data.DataSetExtensions.dll",
-        "system.data.datasetextensions.4.5.0.nupkg.sha512",
-        "system.data.datasetextensions.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
     "System.Data.SqlClient/4.8.3": {
       "sha512": "yERfVLXAY0QbylAgaGLByYN0hFxX28aeEQ0hUgJO+Ntn1AfmWl5HHUoYJA0Yl9HhIUUJHVaS/Sw/RLZr5aaC+A==",
       "type": "package",
@@ -5815,27 +5555,24 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Formats.Asn1/6.0.0": {
-      "sha512": "T6fD00dQ3NTbPDy31m4eQUwKW84s03z0N2C8HpOklyeaDgaJPa/TexP4/SkORMSOwc7WhKifnA6Ya33AkzmafA==",
+    "System.Formats.Asn1/5.0.0": {
+      "sha512": "MTvUIktmemNB+El0Fgw9egyqT9AYSIk6DTJeoDSpc3GIHxHCMo8COqkWT1mptX5tZ1SlQ6HJZ0OsSvMth1c12w==",
       "type": "package",
-      "path": "system.formats.asn1/6.0.0",
+      "path": "system.formats.asn1/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/netcoreapp2.0/System.Formats.Asn1.targets",
-        "buildTransitive/netcoreapp3.1/_._",
         "lib/net461/System.Formats.Asn1.dll",
         "lib/net461/System.Formats.Asn1.xml",
-        "lib/net6.0/System.Formats.Asn1.dll",
-        "lib/net6.0/System.Formats.Asn1.xml",
         "lib/netstandard2.0/System.Formats.Asn1.dll",
         "lib/netstandard2.0/System.Formats.Asn1.xml",
-        "system.formats.asn1.6.0.0.nupkg.sha512",
+        "system.formats.asn1.5.0.0.nupkg.sha512",
         "system.formats.asn1.nuspec",
-        "useSharedDesignerContext.txt"
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.IdentityModel.Tokens.Jwt/6.24.0": {
@@ -6542,43 +6279,6 @@
         "version.txt"
       ]
     },
-    "System.Security.Cryptography.Pkcs/6.0.0": {
-      "sha512": "elM3x+xSRhzQysiqo85SbidJJ2YbZlnvmh+53TuSZHsD7dNuuEWser+9EFtY+rYupBwkq2avc6ZCO3/6qACgmg==",
-      "type": "package",
-      "path": "system.security.cryptography.pkcs/6.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/netcoreapp2.0/System.Security.Cryptography.Pkcs.targets",
-        "buildTransitive/netcoreapp3.1/_._",
-        "lib/net461/System.Security.Cryptography.Pkcs.dll",
-        "lib/net461/System.Security.Cryptography.Pkcs.xml",
-        "lib/net6.0/System.Security.Cryptography.Pkcs.dll",
-        "lib/net6.0/System.Security.Cryptography.Pkcs.xml",
-        "lib/netcoreapp3.1/System.Security.Cryptography.Pkcs.dll",
-        "lib/netcoreapp3.1/System.Security.Cryptography.Pkcs.xml",
-        "lib/netstandard2.0/System.Security.Cryptography.Pkcs.dll",
-        "lib/netstandard2.0/System.Security.Cryptography.Pkcs.xml",
-        "lib/netstandard2.1/System.Security.Cryptography.Pkcs.dll",
-        "lib/netstandard2.1/System.Security.Cryptography.Pkcs.xml",
-        "runtimes/win/lib/net461/System.Security.Cryptography.Pkcs.dll",
-        "runtimes/win/lib/net461/System.Security.Cryptography.Pkcs.xml",
-        "runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.dll",
-        "runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.xml",
-        "runtimes/win/lib/netcoreapp3.1/System.Security.Cryptography.Pkcs.dll",
-        "runtimes/win/lib/netcoreapp3.1/System.Security.Cryptography.Pkcs.xml",
-        "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.Pkcs.dll",
-        "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.Pkcs.xml",
-        "runtimes/win/lib/netstandard2.1/System.Security.Cryptography.Pkcs.dll",
-        "runtimes/win/lib/netstandard2.1/System.Security.Cryptography.Pkcs.xml",
-        "system.security.cryptography.pkcs.6.0.0.nupkg.sha512",
-        "system.security.cryptography.pkcs.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
     "System.Security.Cryptography.ProtectedData/6.0.0": {
       "sha512": "rp1gMNEZpvx9vP0JW0oHLxlf8oSiQgtno77Y4PLUBjSiDYoD77Y8uXHr1Ea5XG4/pIKhqAdxZ8v8OTUtqo9PeQ==",
       "type": "package",
@@ -7067,11 +6767,6 @@
       "type": "project",
       "path": "../OMSCore.Infrastructure.Persistence/OMSCore.Infrastructure.Persistence.csproj",
       "msbuildProject": "../OMSCore.Infrastructure.Persistence/OMSCore.Infrastructure.Persistence.csproj"
-    },
-    "OMSCore.Infrastructure.Shared/1.0.0": {
-      "type": "project",
-      "path": "../OMSCore.Infrastructure.Shared/OMSCore.Infrastructure.Shared.csproj",
-      "msbuildProject": "../OMSCore.Infrastructure.Shared/OMSCore.Infrastructure.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7087,7 +6782,6 @@
       "MySql.EntityFrameworkCore >= 7.0.10",
       "Newtonsoft.Json >= 13.0.3",
       "OMSCore.Infrastructure.Persistence >= 1.0.0",
-      "OMSCore.Infrastructure.Shared >= 1.0.0",
       "Serilog.AspNetCore >= 6.1.0",
       "Serilog.Expressions >= 3.4.1",
       "Swashbuckle.AspNetCore >= 6.5.0",
@@ -7124,9 +6818,6 @@
           "projectReferences": {
             "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Infrastructure.Persistence\\OMSCore.Infrastructure.Persistence.csproj": {
               "projectPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Infrastructure.Persistence\\OMSCore.Infrastructure.Persistence.csproj"
-            },
-            "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Infrastructure.Shared\\OMSCore.Infrastructure.Shared.csproj": {
-              "projectPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Infrastructure.Shared\\OMSCore.Infrastructure.Shared.csproj"
             }
           }
         }
@@ -7221,7 +6912,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   },

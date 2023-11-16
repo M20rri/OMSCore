@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -144,7 +144,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -245,93 +245,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Infrastructure.Shared\\OMSCore.Infrastructure.Shared.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Infrastructure.Shared\\OMSCore.Infrastructure.Shared.csproj",
-        "projectName": "OMSCore.Infrastructure.Shared",
-        "projectPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Infrastructure.Shared\\OMSCore.Infrastructure.Shared.csproj",
-        "packagesPath": "C:\\Users\\mahmo\\.nuget\\packages\\",
-        "outputPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Infrastructure.Shared\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\mahmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\SIFI Integrations\\SIFI Nugets": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {
-              "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Application\\OMSCore.Application.csproj": {
-                "projectPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Application\\OMSCore.Application.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "dependencies": {
-            "AutoBogus": {
-              "target": "Package",
-              "version": "[2.13.1, )"
-            },
-            "Bogus": {
-              "target": "Package",
-              "version": "[34.0.2, )"
-            },
-            "MailKit": {
-              "target": "Package",
-              "version": "[3.4.3, )"
-            },
-            "Microsoft.Extensions.Logging": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.Extensions.Options.ConfigurationExtensions": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "MimeKit": {
-              "target": "Package",
-              "version": "[3.4.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -362,9 +276,6 @@
             "projectReferences": {
               "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Infrastructure.Persistence\\OMSCore.Infrastructure.Persistence.csproj": {
                 "projectPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Infrastructure.Persistence\\OMSCore.Infrastructure.Persistence.csproj"
-              },
-              "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Infrastructure.Shared\\OMSCore.Infrastructure.Shared.csproj": {
-                "projectPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Infrastructure.Shared\\OMSCore.Infrastructure.Shared.csproj"
               }
             }
           }
@@ -459,7 +370,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

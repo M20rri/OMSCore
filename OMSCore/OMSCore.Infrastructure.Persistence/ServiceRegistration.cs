@@ -6,6 +6,7 @@ using OMSCore.Application.Interfaces.Repositories;
 using OMSCore.Infrastructure.Persistence.Contexts;
 using OMSCore.Infrastructure.Persistence.Repositories;
 using OMSCore.Infrastructure.Persistence.Repository;
+using OMSCore.Infrastructure.Shared.Services;
 
 namespace OMSCore.Infrastructure.Persistence
 {
@@ -26,6 +27,8 @@ namespace OMSCore.Infrastructure.Persistence
                 options.UseMySQL(connectionString,
                 b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
             }
+
+            services.AddTransient<IUserMasterService, UserMasterService>();
 
             #region Repositories
 
