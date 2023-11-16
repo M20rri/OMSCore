@@ -11,7 +11,7 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace OMSCore.Infrastructure.Shared.Services
+namespace OMSCore.Infrastructure.Persistence.Persistence.Services
 {
     public class UserMasterService : IUserMasterService
     {

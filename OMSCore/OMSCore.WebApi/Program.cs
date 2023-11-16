@@ -4,8 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using OMSCore.Application;
 using OMSCore.Infrastructure.Persistence;
-using OMSCore.Infrastructure.Persistence.Contexts;
-using OMSCore.Infrastructure.Shared;
+using OMSCore.Infrastructure.Persistence.Persistence.Contexts;
 using OMSCore.WebApi.Extensions;
 using Serilog;
 using System;
@@ -17,7 +16,6 @@ try
     builder.Host.UseSerilog(Log.Logger);
     builder.Services.AddApplicationLayer();
     builder.Services.AddPersistenceInfrastructure(builder.Configuration);
-    builder.Services.AddSharedInfrastructure(builder.Configuration);
     builder.Services.AddSwaggerExtension();
     builder.Services.AddControllersExtension();
 

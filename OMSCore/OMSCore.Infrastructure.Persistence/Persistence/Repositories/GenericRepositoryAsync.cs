@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using OMSCore.Application.Interfaces;
-using OMSCore.Infrastructure.Persistence.Contexts;
+using OMSCore.Infrastructure.Persistence.Persistence.Contexts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Linq.Dynamic.Core;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace OMSCore.Infrastructure.Persistence.Repository
+namespace OMSCore.Infrastructure.Persistence.Persistence.Repositories
 {
     public class GenericRepositoryAsync<T> : IGenericRepositoryAsync<T> where T : class
     {

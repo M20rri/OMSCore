@@ -18,8 +18,7 @@
           "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": "7.0.5",
           "MySql.EntityFrameworkCore": "7.0.10",
           "Newtonsoft.Json": "13.0.3",
-          "OMSCore.Infrastructure.Persistence": "1.0.0",
-          "OMSCore.Infrastructure.Shared": "1.0.0",
+          "OMSCore.Infrastructure": "1.0.0",
           "Serilog.AspNetCore": "6.1.0",
           "Serilog.Expressions": "3.4.1",
           "Swashbuckle.AspNetCore": "6.5.0",
@@ -38,18 +37,6 @@
           "lib/net6.0/HealthChecks.SqlServer.dll": {
             "assemblyVersion": "6.0.2.0",
             "fileVersion": "6.0.2.0"
-          }
-        }
-      },
-      "AutoBogus/2.13.1": {
-        "dependencies": {
-          "Bogus": "34.0.2",
-          "System.Data.DataSetExtensions": "4.5.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/AutoBogus.dll": {
-            "assemblyVersion": "2.13.1.0",
-            "fileVersion": "2.13.1.0"
           }
         }
       },
@@ -107,14 +94,6 @@
           "lib/netstandard2.0/Azure.Identity.dll": {
             "assemblyVersion": "1.7.0.0",
             "fileVersion": "1.700.22.46903"
-          }
-        }
-      },
-      "Bogus/34.0.2": {
-        "runtime": {
-          "lib/net6.0/Bogus.dll": {
-            "assemblyVersion": "34.0.2.0",
-            "fileVersion": "34.0.2.0"
           }
         }
       },
@@ -281,17 +260,6 @@
           "lib/net7.0/LinqKit.Microsoft.EntityFrameworkCore.dll": {
             "assemblyVersion": "7.1.4.0",
             "fileVersion": "7.1.4.0"
-          }
-        }
-      },
-      "MailKit/3.4.3": {
-        "dependencies": {
-          "MimeKit": "3.4.3"
-        },
-        "runtime": {
-          "lib/net6.0/MailKit.dll": {
-            "assemblyVersion": "3.4.0.0",
-            "fileVersion": "3.4.3.0"
           }
         }
       },
@@ -918,20 +886,6 @@
           }
         }
       },
-      "MimeKit/3.4.3": {
-        "dependencies": {
-          "Portable.BouncyCastle": "1.9.0",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
-          "System.Security.Cryptography.Pkcs": "6.0.0",
-          "System.Text.Encoding.CodePages": "6.0.0"
-        },
-        "runtime": {
-          "lib/net6.0/MimeKit.dll": {
-            "assemblyVersion": "3.4.0.0",
-            "fileVersion": "3.4.3.0"
-          }
-        }
-      },
       "Mono.TextTemplating/2.2.1": {
         "dependencies": {
           "System.CodeDom": "4.4.0"
@@ -1078,14 +1032,6 @@
           "lib/net7.0/Pomelo.EntityFrameworkCore.MySql.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.0.0"
-          }
-        }
-      },
-      "Portable.BouncyCastle/1.9.0": {
-        "runtime": {
-          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
-            "assemblyVersion": "1.9.0.0",
-            "fileVersion": "1.9.0.1"
           }
         }
       },
@@ -1315,7 +1261,6 @@
           }
         }
       },
-      "System.Data.DataSetExtensions/4.5.0": {},
       "System.Data.SqlClient/4.8.3": {
         "dependencies": {
           "Microsoft.Win32.Registry": "4.7.0",
@@ -1369,7 +1314,7 @@
           }
         }
       },
-      "System.Formats.Asn1/6.0.0": {},
+      "System.Formats.Asn1/5.0.0": {},
       "System.IdentityModel.Tokens.Jwt/6.24.0": {
         "dependencies": {
           "Microsoft.IdentityModel.JsonWebTokens": "6.24.0",
@@ -1466,12 +1411,7 @@
       "System.Security.AccessControl/6.0.0": {},
       "System.Security.Cryptography.Cng/5.0.0": {
         "dependencies": {
-          "System.Formats.Asn1": "6.0.0"
-        }
-      },
-      "System.Security.Cryptography.Pkcs/6.0.0": {
-        "dependencies": {
-          "System.Formats.Asn1": "6.0.0"
+          "System.Formats.Asn1": "5.0.0"
         }
       },
       "System.Security.Cryptography.ProtectedData/6.0.0": {
@@ -1577,7 +1517,7 @@
           "OMSCore.Domain.dll": {}
         }
       },
-      "OMSCore.Infrastructure.Persistence/1.0.0": {
+      "OMSCore.Infrastructure/1.0.0": {
         "dependencies": {
           "EFCore.BulkExtensions": "7.0.1",
           "LinqKit.Microsoft.EntityFrameworkCore": "7.1.4",
@@ -1592,21 +1532,7 @@
           "System.Linq.Dynamic.Core": "1.3.2"
         },
         "runtime": {
-          "OMSCore.Infrastructure.Persistence.dll": {}
-        }
-      },
-      "OMSCore.Infrastructure.Shared/1.0.0": {
-        "dependencies": {
-          "AutoBogus": "2.13.1",
-          "Bogus": "34.0.2",
-          "MailKit": "3.4.3",
-          "Microsoft.Extensions.Logging": "7.0.0",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "7.0.0",
-          "MimeKit": "3.4.3",
-          "OMSCore.Application": "1.0.0"
-        },
-        "runtime": {
-          "OMSCore.Infrastructure.Shared.dll": {}
+          "OMSCore.Infrastructure.dll": {}
         }
       }
     }
@@ -1623,13 +1549,6 @@
       "sha512": "sha512-Af7ws27DnZZ4bKCiEREm7emSAKEtIiYirEAkI0ixFgK1fwJ99jmMnPC+kU01zfqn3FyCO/gZOUO7WbyVvTPpFg==",
       "path": "aspnetcore.healthchecks.sqlserver/6.0.2",
       "hashPath": "aspnetcore.healthchecks.sqlserver.6.0.2.nupkg.sha512"
-    },
-    "AutoBogus/2.13.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-9bvwy/Y53M/AWXzYaClv0jU9Xg/Ycyth3cQuUFWZRw5Dv4UsHV00iSrDplcheG6l5mL5SI/eif7X2INhuBvjQw==",
-      "path": "autobogus/2.13.1",
-      "hashPath": "autobogus.2.13.1.nupkg.sha512"
     },
     "AutoMapper/12.0.0": {
       "type": "package",
@@ -1658,13 +1577,6 @@
       "sha512": "sha512-eHEiCO/8+MfNc9nH5dVew/+FvxdaGrkRL4OMNwIz0W79+wtJyEoeRlXJ3SrXhoy9XR58geBYKmzMR83VO7bcAw==",
       "path": "azure.identity/1.7.0",
       "hashPath": "azure.identity.1.7.0.nupkg.sha512"
-    },
-    "Bogus/34.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-2KQAuMn3fLAQ2r6jeiffZnpv0bi3GCW3iRB2v1KeHIEBu8MNTh9dBlLTZwGvM0pr+9doKkU8L5JgCURmTmT88A==",
-      "path": "bogus/34.0.2",
-      "hashPath": "bogus.34.0.2.nupkg.sha512"
     },
     "BouncyCastle.Cryptography/2.2.1": {
       "type": "package",
@@ -1777,13 +1689,6 @@
       "sha512": "sha512-Bsq1/HXOC29GjviRq971qYz3/+9GWKEKO4QdoaEjMt5HHHx8b4yHL8RGzohdiqjTjOOVM5oZF9eaOpLcFu8uUA==",
       "path": "linqkit.microsoft.entityframeworkcore/7.1.4",
       "hashPath": "linqkit.microsoft.entityframeworkcore.7.1.4.nupkg.sha512"
-    },
-    "MailKit/3.4.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Iewef8mcE1B1LrVudxQjQ0LcriPPeTbxmWMoHQzFS+P6TpEY2eVDbdKdB0Qnbmqr/5w7WfK2mNWuoSX9pI470g==",
-      "path": "mailkit/3.4.3",
-      "hashPath": "mailkit.3.4.3.nupkg.sha512"
     },
     "MediatR/11.0.0": {
       "type": "package",
@@ -2282,13 +2187,6 @@
       "path": "microsoft.win32.systemevents/6.0.0",
       "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
     },
-    "MimeKit/3.4.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-7TSAcziEwk0bGWODpFTQASghXfYNBBa5VdM8KO4s5SBp5LYgIVXcQsdLBpPQ2XhZW74wfaX8RBUMs1GTMlLJcA==",
-      "path": "mimekit/3.4.3",
-      "hashPath": "mimekit.3.4.3.nupkg.sha512"
-    },
     "Mono.TextTemplating/2.2.1": {
       "type": "package",
       "serviceable": true,
@@ -2358,13 +2256,6 @@
       "sha512": "sha512-Qk5WB/skSZet5Yrz6AN2ywjZaB1pxfAmvQ+5I4khTkLwwIamI4QJoH2NphCWLFQL+2ar8HvsNCTmwYk0qhqL0w==",
       "path": "pomelo.entityframeworkcore.mysql/7.0.0",
       "hashPath": "pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512"
-    },
-    "Portable.BouncyCastle/1.9.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-eZZBCABzVOek+id9Xy04HhmgykF0wZg9wpByzrWN7q8qEI0Qen9b7tfd7w8VA3dOeesumMG7C5ZPy0jk7PSRHw==",
-      "path": "portable.bouncycastle/1.9.0",
-      "hashPath": "portable.bouncycastle.1.9.0.nupkg.sha512"
     },
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {
       "type": "package",
@@ -2520,13 +2411,6 @@
       "path": "system.configuration.configurationmanager/6.0.1",
       "hashPath": "system.configuration.configurationmanager.6.0.1.nupkg.sha512"
     },
-    "System.Data.DataSetExtensions/4.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-221clPs1445HkTBZPL+K9sDBdJRB8UN8rgjO3ztB0CQ26z//fmJXtlsr6whGatscsKGBrhJl5bwJuKSA8mwFOw==",
-      "path": "system.data.datasetextensions/4.5.0",
-      "hashPath": "system.data.datasetextensions.4.5.0.nupkg.sha512"
-    },
     "System.Data.SqlClient/4.8.3": {
       "type": "package",
       "serviceable": true,
@@ -2548,12 +2432,12 @@
       "path": "system.drawing.common/6.0.0",
       "hashPath": "system.drawing.common.6.0.0.nupkg.sha512"
     },
-    "System.Formats.Asn1/6.0.0": {
+    "System.Formats.Asn1/5.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-T6fD00dQ3NTbPDy31m4eQUwKW84s03z0N2C8HpOklyeaDgaJPa/TexP4/SkORMSOwc7WhKifnA6Ya33AkzmafA==",
-      "path": "system.formats.asn1/6.0.0",
-      "hashPath": "system.formats.asn1.6.0.0.nupkg.sha512"
+      "sha512": "sha512-MTvUIktmemNB+El0Fgw9egyqT9AYSIk6DTJeoDSpc3GIHxHCMo8COqkWT1mptX5tZ1SlQ6HJZ0OsSvMth1c12w==",
+      "path": "system.formats.asn1/5.0.0",
+      "hashPath": "system.formats.asn1.5.0.0.nupkg.sha512"
     },
     "System.IdentityModel.Tokens.Jwt/6.24.0": {
       "type": "package",
@@ -2660,13 +2544,6 @@
       "path": "system.security.cryptography.cng/5.0.0",
       "hashPath": "system.security.cryptography.cng.5.0.0.nupkg.sha512"
     },
-    "System.Security.Cryptography.Pkcs/6.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-elM3x+xSRhzQysiqo85SbidJJ2YbZlnvmh+53TuSZHsD7dNuuEWser+9EFtY+rYupBwkq2avc6ZCO3/6qACgmg==",
-      "path": "system.security.cryptography.pkcs/6.0.0",
-      "hashPath": "system.security.cryptography.pkcs.6.0.0.nupkg.sha512"
-    },
     "System.Security.Cryptography.ProtectedData/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -2754,12 +2631,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "OMSCore.Infrastructure.Persistence/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "OMSCore.Infrastructure.Shared/1.0.0": {
+    "OMSCore.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

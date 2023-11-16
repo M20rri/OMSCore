@@ -15,3 +15,4 @@ D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\obj\Debug\net7.0\
 D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\obj\Debug\net7.0\refint\OMSCore.Infrastructure.Persistence.dll
 D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\obj\Debug\net7.0\OMSCore.Infrastructure.Persistence.pdb
 D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\obj\Debug\net7.0\ref\OMSCore.Infrastructure.Persistence.dll
+D:\Training\OMSCore\OMSCore\OMSCore.Infrastructure.Persistence\obj\Debug\net7.0\OMSCore.Infrastructure.Persistence.sourcelink.json

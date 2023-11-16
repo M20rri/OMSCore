@@ -2,11 +2,10 @@
 using OMSCore.Application.DTOs.Authenticate;
 using OMSCore.Application.Interfaces.Repositories;
 using OMSCore.Domain.Entities;
-using OMSCore.Infrastructure.Persistence.Contexts;
-using OMSCore.Infrastructure.Persistence.Repository;
+using OMSCore.Infrastructure.Persistence.Persistence.Contexts;
 using System.Threading.Tasks;
 
-namespace OMSCore.Infrastructure.Persistence.Repositories
+namespace OMSCore.Infrastructure.Persistence.Persistence.Repositories
 {
     internal class UserMasterRepositoryAsync : GenericRepositoryAsync<UserMaster>, IUserMasterRepositoryAsync
     {

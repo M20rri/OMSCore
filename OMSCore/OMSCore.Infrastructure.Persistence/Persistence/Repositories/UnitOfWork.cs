@@ -1,9 +1,9 @@
 ﻿using OMSCore.Application.Interfaces;
 using OMSCore.Application.Interfaces.Repositories;
-using OMSCore.Infrastructure.Persistence.Contexts;
+using OMSCore.Infrastructure.Persistence.Persistence.Contexts;
 using System.Threading.Tasks;
 
-namespace OMSCore.Infrastructure.Persistence.Repositories
+namespace OMSCore.Infrastructure.Persistence.Persistence.Repositories
 {
     public class UnitOfWork : IUnitOfWork
     {

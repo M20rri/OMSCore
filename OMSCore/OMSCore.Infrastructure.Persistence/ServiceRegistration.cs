@@ -3,10 +3,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using OMSCore.Application.Interfaces;
 using OMSCore.Application.Interfaces.Repositories;
-using OMSCore.Infrastructure.Persistence.Contexts;
-using OMSCore.Infrastructure.Persistence.Repositories;
-using OMSCore.Infrastructure.Persistence.Repository;
-using OMSCore.Infrastructure.Shared.Services;
+using OMSCore.Infrastructure.Persistence.Persistence.Contexts;
+using OMSCore.Infrastructure.Persistence.Persistence.Repositories;
+using OMSCore.Infrastructure.Persistence.Persistence.Services;
 
 namespace OMSCore.Infrastructure.Persistence
 {

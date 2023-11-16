@@ -5,7 +5,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace OMSCore.Infrastructure.Persistence.Contexts
+namespace OMSCore.Infrastructure.Persistence.Persistence.Contexts
 {
     public class ApplicationDbContext : DbContext
     {

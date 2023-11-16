@@ -13,3 +13,4 @@ D:\Training\OMSCore\OMSCore\OMSCore.Application\obj\Debug\net7.0\OMSCore.Applica
 D:\Training\OMSCore\OMSCore\OMSCore.Application\obj\Debug\net7.0\refint\OMSCore.Application.dll
 D:\Training\OMSCore\OMSCore\OMSCore.Application\obj\Debug\net7.0\OMSCore.Application.pdb
 D:\Training\OMSCore\OMSCore\OMSCore.Application\obj\Debug\net7.0\ref\OMSCore.Application.dll
+D:\Training\OMSCore\OMSCore\OMSCore.Application\obj\Debug\net7.0\OMSCore.Application.sourcelink.json

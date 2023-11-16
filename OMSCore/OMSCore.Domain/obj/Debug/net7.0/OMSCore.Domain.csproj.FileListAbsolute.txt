@@ -10,3 +10,4 @@ D:\Training\OMSCore\OMSCore\OMSCore.Domain\obj\Debug\net7.0\refint\OMSCore.Domai
 D:\Training\OMSCore\OMSCore\OMSCore.Domain\obj\Debug\net7.0\OMSCore.Domain.pdb
 D:\Training\OMSCore\OMSCore\OMSCore.Domain\obj\Debug\net7.0\ref\OMSCore.Domain.dll
 D:\Training\OMSCore\OMSCore\OMSCore.Domain\obj\Debug\net7.0\OMSCore.Domain.csproj.AssemblyReference.cache
+D:\Training\OMSCore\OMSCore\OMSCore.Domain\obj\Debug\net7.0\OMSCore.Domain.sourcelink.json

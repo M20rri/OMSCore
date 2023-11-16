@@ -13,12 +13,10 @@ D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\OMSCore.WebApi.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\OMSCore.WebApi.pdb
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\OMSCore.WebApi.xml
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\HealthChecks.SqlServer.dll
-D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\AutoBogus.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\AutoMapper.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\Azure.Core.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\Azure.Identity.dll
-D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\Bogus.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\CoreApiResponse.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Types.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\EFCore.BulkExtensions.dll
@@ -34,7 +32,6 @@ D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\K4os.Compression.LZ4
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\K4os.Hash.xxHash.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\LinqKit.Core.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\LinqKit.Microsoft.EntityFrameworkCore.dll
-D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\MailKit.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\MediatR.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\MediatR.Contracts.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
@@ -68,7 +65,6 @@ D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\Microsoft.IdentityMo
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\MimeKit.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\MySql.Data.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\MySqlConnector.dll
@@ -78,7 +74,6 @@ D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\Newtonsoft.Json.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\Npgsql.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
-D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\BouncyCastle.Crypto.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\Serilog.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\Serilog.AspNetCore.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\Serilog.Expressions.dll
@@ -123,10 +118,6 @@ D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\runtimes\win\lib\net
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\OMSCore.Application.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\OMSCore.Domain.dll
-D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\OMSCore.Infrastructure.Persistence.dll
-D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\OMSCore.Infrastructure.Shared.dll
-D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\OMSCore.Infrastructure.Persistence.pdb
-D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\OMSCore.Infrastructure.Shared.pdb
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\OMSCore.Application.pdb
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\OMSCore.Domain.pdb
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\obj\Debug\net7.0\staticwebassets\msbuild.OMSCore.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
@@ -152,3 +143,6 @@ D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\runtimes\win-x64\nat
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\MySql.EntityFrameworkCore.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\obj\Debug\net7.0\OMSCore.WebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Training\OMSCore\OMSCore\OMSCore.WebApi\obj\Debug\net7.0\OMSCore.WebApi.sourcelink.json
+D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\OMSCore.Infrastructure.dll
+D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\OMSCore.Infrastructure.pdb

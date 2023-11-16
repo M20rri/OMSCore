@@ -46,8 +46,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OMSCore.Infrastructure.Persistence\OMSCore.Infrastructure.Persistence.csproj" />
-    <ProjectReference Include="..\OMSCore.Infrastructure.Shared\OMSCore.Infrastructure.Shared.csproj" />
+    <ProjectReference Include="..\OMSCore.Infrastructure.Persistence\OMSCore.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
