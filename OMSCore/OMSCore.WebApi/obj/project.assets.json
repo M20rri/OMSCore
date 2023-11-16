@@ -2640,7 +2640,7 @@
           "bin/placeholder/OMSCore.Domain.dll": {}
         }
       },
-      "OMSCore.Infrastructure.Persistence/1.0.0": {
+      "OMSCore.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -2657,10 +2657,10 @@
           "System.Linq.Dynamic.Core": "1.3.2"
         },
         "compile": {
-          "bin/placeholder/OMSCore.Infrastructure.Persistence.dll": {}
+          "bin/placeholder/OMSCore.Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/OMSCore.Infrastructure.Persistence.dll": {}
+          "bin/placeholder/OMSCore.Infrastructure.dll": {}
         }
       }
     }
@@ -6763,10 +6763,10 @@
       "path": "../OMSCore.Domain/OMSCore.Domain.csproj",
       "msbuildProject": "../OMSCore.Domain/OMSCore.Domain.csproj"
     },
-    "OMSCore.Infrastructure.Persistence/1.0.0": {
+    "OMSCore.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../OMSCore.Infrastructure.Persistence/OMSCore.Infrastructure.Persistence.csproj",
-      "msbuildProject": "../OMSCore.Infrastructure.Persistence/OMSCore.Infrastructure.Persistence.csproj"
+      "path": "../OMSCore.Infrastructure.Persistence/OMSCore.Infrastructure.csproj",
+      "msbuildProject": "../OMSCore.Infrastructure.Persistence/OMSCore.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6781,7 +6781,7 @@
       "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore >= 7.0.5",
       "MySql.EntityFrameworkCore >= 7.0.10",
       "Newtonsoft.Json >= 13.0.3",
-      "OMSCore.Infrastructure.Persistence >= 1.0.0",
+      "OMSCore.Infrastructure >= 1.0.0",
       "Serilog.AspNetCore >= 6.1.0",
       "Serilog.Expressions >= 3.4.1",
       "Swashbuckle.AspNetCore >= 6.5.0",
@@ -6816,8 +6816,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Infrastructure.Persistence\\OMSCore.Infrastructure.Persistence.csproj": {
-              "projectPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Infrastructure.Persistence\\OMSCore.Infrastructure.Persistence.csproj"
+            "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Infrastructure.Persistence\\OMSCore.Infrastructure.csproj": {
+              "projectPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Infrastructure.Persistence\\OMSCore.Infrastructure.csproj"
             }
           }
         }
