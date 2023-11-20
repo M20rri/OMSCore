@@ -146,3 +146,9 @@ D:\Training\OMSCore\OMSCore\OMSCore.WebApi\obj\Debug\net7.0\OMSCore.WebApi.MvcAp
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\obj\Debug\net7.0\OMSCore.WebApi.sourcelink.json
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\OMSCore.Infrastructure.dll
 D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\OMSCore.Infrastructure.pdb
+D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\log4net.config
+D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\log4net.dll
+D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\log4net.Ext.Json.dll
+D:\Training\OMSCore\OMSCore\OMSCore.WebApi\bin\Debug\net7.0\log4net.Ext.Json.Net.dll

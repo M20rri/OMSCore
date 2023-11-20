@@ -1,19 +1,23 @@
+using log4net.Config;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using OMSCore.Application;
 using OMSCore.Infrastructure.Persistence;
 using OMSCore.Infrastructure.Persistence.Persistence.Contexts;
 using OMSCore.WebApi.Extensions;
-using Serilog;
 using System;
+using System.IO;
 try
 {
     var builder = WebApplication.CreateBuilder(args);
-    // load up serilog configuraton
-    Log.Logger = new LoggerConfiguration().ReadFrom.Configuration(builder.Configuration).Enrich.FromLogContext().CreateLogger();
-    builder.Host.UseSerilog(Log.Logger);
+  
+    //laod up Log4net configuraton
+    builder.Logging.AddLog4Net();
+    XmlConfigurator.Configure(new FileInfo("log4net.config"));
+
     builder.Services.AddApplicationLayer();
     builder.Services.AddPersistenceInfrastructure(builder.Configuration);
     builder.Services.AddSwaggerExtension();
@@ -50,8 +54,7 @@ try
     }
 
 
-    // Add this line; you'll need `using Serilog;` up the top, too
-    app.UseSerilogRequestLogging();
+
     app.UseHttpsRedirection();
     app.UseRouting();
     app.UseStaticFilesExtension();
@@ -64,14 +67,14 @@ try
     app.MapControllers();
     app.Run();
 
-    Log.Information("Application Starting");
+    //Log.Information("Application Starting");
 
 }
 catch (Exception ex)
 {
-    Log.Warning(ex, "An error occurred starting the application");
+    //Log.Warning(ex, "An error occurred starting the application");
 }
 finally
 {
-    Log.CloseAndFlush();
+    //Log.CloseAndFlush();
 }
