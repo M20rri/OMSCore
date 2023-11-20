@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "IKGZLIutSEP9/irw8SgaZA778nc/lNkEnM+S/87Wpf0=",
-  "Source": "OMSCore.WebApi",
-  "BasePath": "_content/OMSCore.WebApi",
+  "Hash": "lAVsf4/XP8OL4a3UKcpKodesbBfBaGYqErDYy8hI7Xs=",
+  "Source": "WebApi",
+  "BasePath": "_content/WebApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
