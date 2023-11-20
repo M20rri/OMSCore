@@ -6,7 +6,7 @@ using System;
 using CoreApiResponse;
 using log4net;
 
-namespace OMSCore.WebApi.Controllers
+namespace WebApi.Controllers
 {
     [ApiController]
     [Route("api/v{version:apiVersion}/[controller]")]

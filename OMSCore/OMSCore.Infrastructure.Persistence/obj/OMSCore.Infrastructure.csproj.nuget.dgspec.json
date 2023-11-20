@@ -4,12 +4,12 @@
     "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Infrastructure.Persistence\\OMSCore.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Application\\OMSCore.Application.csproj": {
+    "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Application\\OMSCore.Application.csproj",
-        "projectName": "OMSCore.Application",
-        "projectPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Application\\OMSCore.Application.csproj",
+        "projectUniqueName": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Application\\Application.csproj",
         "packagesPath": "C:\\Users\\mahmo\\.nuget\\packages\\",
         "outputPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Application\\obj\\",
         "projectStyle": "PackageReference",
@@ -64,6 +64,68 @@
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[6.24.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\mahmo\\.nuget\\packages\\",
+        "outputPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mahmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\SIFI Integrations\\SIFI Nugets": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
             }
           },
           "imports": [
@@ -173,11 +235,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Application\\OMSCore.Application.csproj": {
-                "projectPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Application\\OMSCore.Application.csproj"
+              "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Application\\Application.csproj": {
+                "projectPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Application\\Application.csproj"
               },
-              "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Domain\\OMSCore.Domain.csproj": {
-                "projectPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Domain\\OMSCore.Domain.csproj"
+              "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Domain\\Domain.csproj": {
+                "projectPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Domain\\Domain.csproj"
               }
             }
           }

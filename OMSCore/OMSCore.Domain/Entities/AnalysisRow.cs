@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 public partial class AnalysisRow
 {

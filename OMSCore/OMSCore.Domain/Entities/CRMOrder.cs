@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Index("InsertedOn", Name = "IDX_CRMOrders_InsertedOn")]
 [Index("OrderDateTime", Name = "IDX_CRMOrders_OrderDateTime")]

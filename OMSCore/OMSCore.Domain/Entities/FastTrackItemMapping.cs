@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Table("FastTrackItemMapping")]
 [Index("ItemNo", "PackagingLocation", Name = "unq_FastTrackItemMapping_ItemNo_PackagingLocation", IsUnique = true)]

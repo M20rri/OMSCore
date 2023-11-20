@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Table("ItemLotInfo")]
 [Index("ItemNo", "LotNo", Name = "IDX_ItemLotInfo_ItemNo_LotNo")]

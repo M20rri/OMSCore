@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Index("IsOrderSuccess", "Country", "DocumentNo", "CustomerId", Name = "IDX_CRMVIPGIFTOrders")]
 [Index("DocumentNo", "Country", "CustomerId", "OrderStatus", Name = "IDX_CRMVIPGIFTOrders_2")]

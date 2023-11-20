@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Table("OrderDetail")]
 [Index("BatchCreated", "PackagingLocation", "IsCancelled", "IsHold", Name = "IDX_OrderDetail_BatchCreated_PackagingLocation")]

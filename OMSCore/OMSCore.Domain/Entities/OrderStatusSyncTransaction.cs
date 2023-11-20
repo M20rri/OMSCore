@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Table("OrderStatusSyncTransaction")]
 [Index("StatusId", "DestinationSystem", "IsSynced", "RetryCounter", Name = "IDX_OrderStatusSyncTransaction")]

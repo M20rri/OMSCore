@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OMSCore.Application.Exceptions
+namespace Application.Exceptions
 {
     public class ValidationException : Exception
     {

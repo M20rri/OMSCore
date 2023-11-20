@@ -523,9 +523,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Domain\\OMSCore.Domain.csproj",
-      "projectName": "OMSCore.Domain",
-      "projectPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Domain\\OMSCore.Domain.csproj",
+      "projectUniqueName": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Domain\\Domain.csproj",
+      "projectName": "Domain",
+      "projectPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\mahmo\\.nuget\\packages\\",
       "outputPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Domain\\obj\\",
       "projectStyle": "PackageReference",

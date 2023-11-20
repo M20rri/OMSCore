@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EG1M3NaHJX9ekgeFTN5c7ffTKowvdG/ei8auSoDzm6nvBRg9qVBd/f2yNV8kINDg4nXKeeRhqjmwFXSI6zQDJA==",
+  "dgSpecHash": "t0eozebHwyiWes38IbKe7VcjZT+QjkR6rSDPpEgBa2ABQ3em0+TxTxNcv3KlUAWMPP/t6bkbs5Ky5ZUjB7Idzg==",
   "success": true,
-  "projectFilePath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.WebApi\\OMSCore.WebApi.csproj",
+  "projectFilePath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mahmo\\.nuget\\packages\\aspnetcore.healthchecks.sqlserver\\6.0.2\\aspnetcore.healthchecks.sqlserver.6.0.2.nupkg.sha512",
     "C:\\Users\\mahmo\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",

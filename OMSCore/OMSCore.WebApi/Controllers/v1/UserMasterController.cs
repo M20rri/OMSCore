@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using OMSCore.Application.Interfaces;
+using Application.Interfaces;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace OMSCore.WebApi.Controllers.v1
+namespace WebApi.Controllers.v1
 {
     [Authorize]
     [Route("api/UserMaster")]

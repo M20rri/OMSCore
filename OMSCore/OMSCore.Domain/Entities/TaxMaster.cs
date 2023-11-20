@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Table("TaxMaster")]
 [Index("FromDate", "ToDate", "FromCountry", "ToCountry", "FromAmount", "ToAmount", "IsActive", Name = "IDX_TaxMaster")]

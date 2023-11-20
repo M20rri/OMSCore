@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Index("Deleted", Name = "IDX_HoldOrders_Deleted")]
 [Index("InsertedOn", Name = "IDX_HoldOrders_InsertedOn")]

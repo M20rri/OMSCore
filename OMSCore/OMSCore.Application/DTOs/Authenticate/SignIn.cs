@@ -1,4 +1,4 @@
-﻿namespace OMSCore.Application.DTOs.Authenticate
+﻿namespace Application.DTOs.Authenticate
 {
     public class SignIn
     {

@@ -1,13 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using OMSCore.Application.Interfaces;
-using OMSCore.Application.Interfaces.Repositories;
-using OMSCore.Infrastructure.Persistence.Persistence.Contexts;
-using OMSCore.Infrastructure.Persistence.Persistence.Repositories;
-using OMSCore.Infrastructure.Persistence.Persistence.Services;
+using Infrastructure.Persistence.Persistence.Contexts;
+using Infrastructure.Persistence.Persistence.Repositories;
+using Infrastructure.Persistence.Persistence.Services;
+using Application.Interfaces;
+using Application.Interfaces.Repositories;
 
-namespace OMSCore.Infrastructure.Persistence
+namespace Infrastructure.Persistence
 {
     public static class ServiceRegistration
     {

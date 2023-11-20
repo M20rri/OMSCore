@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Index("AWBNo", Name = "IDX_BoxDimensionDetails_AWBNo")]
 [Index("BoxId", Name = "IDX_BoxDimensionDetails_BoxId")]

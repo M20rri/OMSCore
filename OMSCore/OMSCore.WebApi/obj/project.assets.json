@@ -3811,41 +3811,43 @@
           "lib/net7.0/ZstdSharp.dll": {}
         }
       },
-      "OMSCore.Application/1.0.0": {
+      "Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
+          "Domain": "1.0.0",
           "FluentValidation": "11.5.1",
           "FluentValidation.DependencyInjectionExtensions": "11.5.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
-          "OMSCore.Domain": "1.0.0",
           "System.IdentityModel.Tokens.Jwt": "6.24.0"
         },
         "compile": {
-          "bin/placeholder/OMSCore.Application.dll": {}
+          "bin/placeholder/Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/OMSCore.Application.dll": {}
+          "bin/placeholder/Application.dll": {}
         }
       },
-      "OMSCore.Domain/1.0.0": {
+      "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.5"
         },
         "compile": {
-          "bin/placeholder/OMSCore.Domain.dll": {}
+          "bin/placeholder/Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/OMSCore.Domain.dll": {}
+          "bin/placeholder/Domain.dll": {}
         }
       },
-      "OMSCore.Infrastructure/1.0.0": {
+      "Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Application": "1.0.0",
+          "Domain": "1.0.0",
           "EFCore.BulkExtensions": "7.0.1",
           "LinqKit.Microsoft.EntityFrameworkCore": "7.1.4",
           "Microsoft.EntityFrameworkCore": "7.0.5",
@@ -3854,15 +3856,13 @@
           "Microsoft.Extensions.Options.ConfigurationExtensions": "7.0.0",
           "MySql.Data": "8.2.0",
           "MySql.EntityFrameworkCore": "7.0.2",
-          "OMSCore.Application": "1.0.0",
-          "OMSCore.Domain": "1.0.0",
           "System.Linq.Dynamic.Core": "1.3.2"
         },
         "compile": {
-          "bin/placeholder/OMSCore.Infrastructure.dll": {}
+          "bin/placeholder/Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/OMSCore.Infrastructure.dll": {}
+          "bin/placeholder/Infrastructure.dll": {}
         }
       }
     }
@@ -10822,20 +10822,20 @@
         "zstdsharp.port.nuspec"
       ]
     },
-    "OMSCore.Application/1.0.0": {
+    "Application/1.0.0": {
       "type": "project",
-      "path": "../OMSCore.Application/OMSCore.Application.csproj",
-      "msbuildProject": "../OMSCore.Application/OMSCore.Application.csproj"
+      "path": "../OMSCore.Application/Application.csproj",
+      "msbuildProject": "../OMSCore.Application/Application.csproj"
     },
-    "OMSCore.Domain/1.0.0": {
+    "Domain/1.0.0": {
       "type": "project",
-      "path": "../OMSCore.Domain/OMSCore.Domain.csproj",
-      "msbuildProject": "../OMSCore.Domain/OMSCore.Domain.csproj"
+      "path": "../OMSCore.Domain/Domain.csproj",
+      "msbuildProject": "../OMSCore.Domain/Domain.csproj"
     },
-    "OMSCore.Infrastructure/1.0.0": {
+    "Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../OMSCore.Infrastructure.Persistence/OMSCore.Infrastructure.csproj",
-      "msbuildProject": "../OMSCore.Infrastructure.Persistence/OMSCore.Infrastructure.csproj"
+      "path": "../OMSCore.Infrastructure.Persistence/Infrastructure.csproj",
+      "msbuildProject": "../OMSCore.Infrastructure.Persistence/Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -10843,6 +10843,7 @@
       "AspNetCore.HealthChecks.SqlServer >= 6.0.2",
       "CoreApiResponse >= 1.0.1",
       "IdentityModel >= 6.0.0",
+      "Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 7.0.4",
       "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.4",
@@ -10851,7 +10852,6 @@
       "Microsoft.Extensions.Logging.Log4Net.AspNetCore >= 7.0.0",
       "MySql.EntityFrameworkCore >= 7.0.10",
       "Newtonsoft.Json >= 13.0.3",
-      "OMSCore.Infrastructure >= 1.0.0",
       "Serilog.AspNetCore >= 6.1.0",
       "Serilog.Expressions >= 3.4.1",
       "Swashbuckle.AspNetCore >= 6.5.0",
@@ -10867,9 +10867,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.WebApi\\OMSCore.WebApi.csproj",
-      "projectName": "OMSCore.WebApi",
-      "projectPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.WebApi\\OMSCore.WebApi.csproj",
+      "projectUniqueName": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.WebApi\\WebApi.csproj",
+      "projectName": "WebApi",
+      "projectPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\mahmo\\.nuget\\packages\\",
       "outputPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.WebApi\\obj\\",
       "projectStyle": "PackageReference",
@@ -10889,8 +10889,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Infrastructure.Persistence\\OMSCore.Infrastructure.csproj": {
-              "projectPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Infrastructure.Persistence\\OMSCore.Infrastructure.csproj"
+            "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Infrastructure.Persistence\\Infrastructure.csproj": {
+              "projectPath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Infrastructure.Persistence\\Infrastructure.csproj"
             }
           }
         }

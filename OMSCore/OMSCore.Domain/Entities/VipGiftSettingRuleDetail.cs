@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Index("CustomerCategory", "IsRuleRun", "GiftDate", "Active", "StartingRank", "EndingRank", Name = "IX_VipGiftSettingRuleDetails")]
 public partial class VipGiftSettingRuleDetail

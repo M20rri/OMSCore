@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Index("ReferenceOrderNo", "BoxId", Name = "IDX_OrderTaxDetails")]
 [Index("WebOrderNo", "ItemId", Name = "INDEX_OrderTaxDetails_WeborderNoItemId")]

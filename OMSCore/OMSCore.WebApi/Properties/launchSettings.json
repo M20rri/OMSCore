@@ -19,7 +19,7 @@
       "sqlDebugging": false,
       "nativeDebugging": false
     },
-    "OMSCore.WebApi": {
+    "WebApi": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",

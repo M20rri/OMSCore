@@ -1,8 +1,8 @@
-﻿using OMSCore.Application.Interfaces.Repositories;
+﻿using Application.Interfaces.Repositories;
 using System;
 using System.Threading.Tasks;
 
-namespace OMSCore.Application.Interfaces
+namespace Application.Interfaces
 {
     public interface IUnitOfWork : IDisposable
     {

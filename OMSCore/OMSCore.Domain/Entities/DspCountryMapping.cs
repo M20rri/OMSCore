@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Table("DspCountryMapping")]
 [Index("PackagingLocation", "DSPCode", "FMDSPCode", "CountryCode", Name = "unq_DspCountryMapping_PkgLoc_DSPCode_FMDSP_Country", IsUnique = true)]

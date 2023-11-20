@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Index("ReferenceId", "InsertedBy", "Id", Name = "IDX_AmeyoImageDetails")]
 public partial class AmeyoQAImageDetail

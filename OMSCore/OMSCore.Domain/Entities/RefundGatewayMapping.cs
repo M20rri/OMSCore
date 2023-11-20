@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Table("RefundGatewayMapping")]
 [Index("Gateway", "CountryId", "Active", "IsAuto", Name = "IX_RefundGatewayMapping")]

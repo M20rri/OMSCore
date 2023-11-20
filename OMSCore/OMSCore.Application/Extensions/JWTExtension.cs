@@ -1,13 +1,13 @@
 ﻿using Microsoft.IdentityModel.Tokens;
-using OMSCore.Application.DTOs.Authenticate;
-using OMSCore.Domain.Settings;
+using Application.DTOs.Authenticate;
 using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using Domain.Settings;
 
-namespace OMSCore.Application.Extensions
+namespace Application.Extensions
 {
     public static class JWTExtension
     {

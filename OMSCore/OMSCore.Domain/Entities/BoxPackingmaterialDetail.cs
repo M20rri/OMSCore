@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Index("BoxType", Name = "IDX_BoxPackingmaterialDetails_BoxType")]
 [Index("InsertedBy", Name = "IDX_BoxPackingmaterialDetails_InsertedBy")]

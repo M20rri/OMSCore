@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using OMSCore.Application.DTOs.Authenticate;
-using OMSCore.Application.Interfaces;
+using Application.DTOs.Authenticate;
+using Application.Interfaces;
 using System;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace OMSCore.WebApi.Controllers
+namespace WebApi.Controllers
 {
     [Route("api/authentcate")]
     [ApiController]

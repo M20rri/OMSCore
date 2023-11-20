@@ -1,4 +1,4 @@
-﻿namespace OMSCore.Domain.Settings
+﻿namespace Domain.Settings
 {
     public class JWTSettings
     {

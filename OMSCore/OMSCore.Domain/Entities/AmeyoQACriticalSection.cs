@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Table("AmeyoQACriticalSection")]
 [Index("SubSectionId", Name = "AmeyoQACriticalSection_FK")]

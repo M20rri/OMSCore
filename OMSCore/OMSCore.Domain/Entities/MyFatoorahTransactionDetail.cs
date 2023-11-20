@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Index("WebOrderNo", "IsProcessed", "InvoiceStatus", "InsertedOn", Name = "IX_MyFatoorahTransactionDetails_2")]
 [Index("InvoiceId", Name = "IX_MyFatoorahTransactionDetails_InvoiceId")]

@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Table("AmeyoQAEvaluationType")]
 public partial class AmeyoQAEvaluationType

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Index("WebOrderNo", "TicketType", Name = "IX_CRMWIPOrders_1")]
 [Index("TicketType", "InsertedOn", Name = "IX_CRMWIPOrders_TicketType_InsertedOn")]

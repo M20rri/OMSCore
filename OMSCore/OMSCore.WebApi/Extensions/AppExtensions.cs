@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.FileProviders;
-using OMSCore.WebApi.Middlewares;
+using WebApi.Middlewares;
 using Swashbuckle.AspNetCore.SwaggerUI;
 using System.IO;
 
-namespace OMSCore.WebApi.Extensions
+namespace WebApi.Extensions
 {
     public static class AppExtensions
     {
@@ -23,7 +23,7 @@ namespace OMSCore.WebApi.Extensions
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "CleanArchitecture.OMSCore.WebApi");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "CleanArchitecture.WebApi");
                 c.DefaultModelsExpandDepth(-1);
                 c.DocExpansion(DocExpansion.None);
                 c.InjectStylesheet("/Files/Swagger/swagger.css");

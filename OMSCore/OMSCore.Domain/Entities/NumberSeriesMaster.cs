@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Table("NumberSeriesMaster")]
 [Index("NumberSeriesPrefix", Name = "unq_NumberSeriesMaster_NumberSeriesPrefix", IsUnique = true)]

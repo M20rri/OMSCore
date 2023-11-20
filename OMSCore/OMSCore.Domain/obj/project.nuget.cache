@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8ZTZiFHh9IsW2IiIlcx3kecwRwWkfRZrIIRzh4VWfhy8OPHxfBoVhyOX2cO+twawplbOEyK7JW9rF0w/gwMabg==",
+  "dgSpecHash": "i7y2OJUott9GGRMnJ9XV9hufvcCDEgVCzHl486ZX88fGG8/2611srTOr0ZOLeoA8H4ZsiAav4NDJMmImLH8iaQ==",
   "success": true,
-  "projectFilePath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Domain\\OMSCore.Domain.csproj",
+  "projectFilePath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mahmo\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
     "C:\\Users\\mahmo\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",

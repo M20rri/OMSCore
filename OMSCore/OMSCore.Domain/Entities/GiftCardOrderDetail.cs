@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Index("WebOrderNo", "CustomerPhone", "RecipientPhone", "CustomerEmail", "GiftCardStatus", "OrderDateTime", Name = "IDX_GiftCardOrderDetails")]
 [Index("WebOrderNo", "CustomerPhone", Name = "IX_GiftCardOrderDetails")]

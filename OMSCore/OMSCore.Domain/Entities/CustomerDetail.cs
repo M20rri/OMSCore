@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Index("CustomerId", Name = "IDX_CustomerDetails_CustomerId")]
 [Index("CustomerType", Name = "IDX_CustomerDetails_CustomerType")]

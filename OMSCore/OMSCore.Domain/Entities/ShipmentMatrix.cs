@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Table("ShipmentMatrix")]
 [Index("PackagingLocation", Name = "IDX_ShipmentMatrix_PackagingLocation")]

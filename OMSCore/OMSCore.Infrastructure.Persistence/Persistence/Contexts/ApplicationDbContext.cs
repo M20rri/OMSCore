@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using OMSCore.Domain.Entities;
+using Domain.Entities;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace OMSCore.Infrastructure.Persistence.Persistence.Contexts
+namespace Infrastructure.Persistence.Persistence.Contexts
 {
     public class ApplicationDbContext : DbContext
     {

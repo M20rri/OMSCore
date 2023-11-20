@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Table("DSPPackingMapping")]
 [Index("PackingLocation", "Country", "DSPCode", "PaymentMethod", "PackageValue", "Priority", "OrderCategory", "ProductTypeCode", Name = "IDX_DSPPackingMapping")]

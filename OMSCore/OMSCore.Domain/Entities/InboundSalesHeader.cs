@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Table("InboundSalesHeader")]
 [Index("WebOrderNo", "Confirm", Name = "IDX_InboundSalesHeader_2")]

@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Index("ReturnCreated", "RetryCount", Name = "IX_AutoGateEntryLineDetails")]
 [Index("PostedGateEntryLineId", Name = "IX_AutoGateEntryLineDetails_PostedGateEntryLineId")]

@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace OMSCore.Application.Extensions
+namespace Application.Extensions
 {
     public static class CommonExtension
     {

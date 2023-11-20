@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
-using OMSCore.Domain.Entities;
 
-namespace OMSCore.Application.Mappings
+namespace Application.Mappings
 {
     public class GeneralProfile : Profile
     {

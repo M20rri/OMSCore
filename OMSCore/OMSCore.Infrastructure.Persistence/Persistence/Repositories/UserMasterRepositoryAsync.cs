@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using OMSCore.Application.DTOs.Authenticate;
-using OMSCore.Application.Interfaces.Repositories;
-using OMSCore.Domain.Entities;
-using OMSCore.Infrastructure.Persistence.Persistence.Contexts;
+using Application.DTOs.Authenticate;
+using Application.Interfaces.Repositories;
+using Domain.Entities;
+using Infrastructure.Persistence.Persistence.Contexts;
 using System.Threading.Tasks;
 
-namespace OMSCore.Infrastructure.Persistence.Persistence.Repositories
+namespace Infrastructure.Persistence.Persistence.Repositories
 {
     internal class UserMasterRepositoryAsync : GenericRepositoryAsync<UserMaster>, IUserMasterRepositoryAsync
     {

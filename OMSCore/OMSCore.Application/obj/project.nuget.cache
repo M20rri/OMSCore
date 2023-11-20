@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0pMlkizGbNzxM2KmVZ0FUSP2i9Hxr8iM8oajA4QoRexN5FEGdCK4ThsF7XZo9owCloApgQXoO3johNjM9mBvrQ==",
+  "dgSpecHash": "DXPN2LKUcmbVHCauJ10Vwgl7ohMX9GL05XrtXxQ5KJh8z+1b09W1yTe0/LUf/5DsrH3DE/78vOKnQPKpfOmB2w==",
   "success": true,
-  "projectFilePath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Application\\OMSCore.Application.csproj",
+  "projectFilePath": "D:\\Training\\OMSCore\\OMSCore\\OMSCore.Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mahmo\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\mahmo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

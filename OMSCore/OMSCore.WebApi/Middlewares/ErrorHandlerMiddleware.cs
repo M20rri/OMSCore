@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
-using OMSCore.Application.Exceptions;
+using Application.Exceptions;
 using System;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace OMSCore.WebApi.Middlewares
+namespace WebApi.Middlewares
 {
     public class ErrorHandlerMiddleware
     {

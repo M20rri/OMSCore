@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Table("NumberSeriesLocationMapping")]
 [Index("NumberSeriesMasterId", "PackagingLocation", Name = "unq_NumSerLocMap_NumberSeriesMasterId_PackagingLocation", IsUnique = true)]

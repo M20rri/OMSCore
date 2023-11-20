@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Index("WebOrderNo", Name = "IX_OCTToolHits")]
 [Index("StatusFromWMS", Name = "IX_OCTToolHits_StatusFromWMS")]

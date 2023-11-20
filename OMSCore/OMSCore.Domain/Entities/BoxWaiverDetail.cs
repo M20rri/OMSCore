@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [PrimaryKey("BoxId", "InvoiceNo")]
 [Index("WebOrderNo", "ReferenceOrderNo", Name = "IDX_BoxWaiverDetails")]

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace OMSCore.Application.Interfaces
+namespace Application.Interfaces
 {
     public interface IGenericRepositoryAsync<T> where T : class
     {

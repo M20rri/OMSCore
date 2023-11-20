@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Index("CountryCode", "DSPCode", "PaymentMethod", "FromDate", "ToDate", "Capacity", "IsDeleted", Name = "IDX_NewDSPCapacityDetails")]
 public partial class NewDSPCapacityDetail

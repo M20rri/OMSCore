@@ -18,8 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OMSCore.Application\OMSCore.Application.csproj" />
-    <ProjectReference Include="..\OMSCore.Domain\OMSCore.Domain.csproj" />
+    <ProjectReference Include="..\OMSCore.Application\Application.csproj" />
+    <ProjectReference Include="..\OMSCore.Domain\Domain.csproj" />
   </ItemGroup>
 
 </Project>

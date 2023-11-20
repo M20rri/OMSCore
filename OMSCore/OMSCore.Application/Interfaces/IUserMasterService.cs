@@ -1,9 +1,9 @@
-﻿using OMSCore.Application.DTOs.Authenticate;
-using OMSCore.Domain.Entities;
+﻿using Application.DTOs.Authenticate;
+using Domain.Entities;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace OMSCore.Application.Interfaces
+namespace Application.Interfaces
 {
     public interface IUserMasterService
     {

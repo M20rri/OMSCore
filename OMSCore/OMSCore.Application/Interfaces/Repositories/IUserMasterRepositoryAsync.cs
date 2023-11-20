@@ -1,8 +1,8 @@
-﻿using OMSCore.Domain.Entities;
-using System.Threading.Tasks;
-using OMSCore.Application.DTOs.Authenticate;
+﻿using System.Threading.Tasks;
+using Application.DTOs.Authenticate;
+using Domain.Entities;
 
-namespace OMSCore.Application.Interfaces.Repositories
+namespace Application.Interfaces.Repositories
 {
     public interface IUserMasterRepositoryAsync : IGenericRepositoryAsync<UserMaster>
     {

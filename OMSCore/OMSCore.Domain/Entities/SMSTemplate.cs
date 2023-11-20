@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Index("Type", "IsActive", "IsDefault", "CountryCode", Name = "IX_SMSTemplates_Type")]
 public partial class SMSTemplate

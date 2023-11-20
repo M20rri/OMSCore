@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Index("DeliveredDate", Name = "ofs_sales_invoices_DeliveredDate_IDX")]
 [Index("InvoiceDate", Name = "ofs_sales_invoices_InvoiceDate_IDX")]

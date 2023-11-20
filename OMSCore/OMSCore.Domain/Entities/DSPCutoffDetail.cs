@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Index("DSPCode", Name = "idx_DSPCutoffDetails_DSPCode")]
 [Index("PackagingLocation", "DSPCode", "CountryCode", Name = "idx_DSPCutoffDetails_PackagingLocation_DSPCode_CountryCode")]

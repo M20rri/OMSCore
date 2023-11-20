@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Table("OrderDspAllocation")]
 [Index("WebOrderNo", "IsAWBGenerated", Name = "IDX_OrderDspAllocation_WebOrderNo_IsAWBGenerated")]

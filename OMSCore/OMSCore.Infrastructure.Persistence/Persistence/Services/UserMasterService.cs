@@ -1,17 +1,17 @@
 ﻿using AutoMapper;
-using OMSCore.Application.DTOs.Authenticate;
-using OMSCore.Application.Exceptions;
-using OMSCore.Application.Extensions;
-using OMSCore.Application.Interfaces;
-using OMSCore.Application.Validators;
-using OMSCore.Domain.Entities;
-using OMSCore.Domain.Settings;
+using Application.DTOs.Authenticate;
+using Application.Exceptions;
+using Application.Extensions;
+using Application.Interfaces;
+using Application.Validators;
+using Domain.Entities;
+using Domain.Settings;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace OMSCore.Infrastructure.Persistence.Persistence.Services
+namespace Infrastructure.Persistence.Persistence.Services
 {
     public class UserMasterService : IUserMasterService
     {

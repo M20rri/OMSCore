@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Index("ReferenceOrderNo", "PackagingLocation", Name = "IDX_SortingBinDetails")]
 [Index("BinCode", Name = "IDX_SortingBinDetails_BinCode")]

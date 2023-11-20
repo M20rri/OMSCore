@@ -3,7 +3,7 @@ using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
-namespace OMSCore.Application
+namespace Application
 {
     public static class ServiceExtensions
     {

@@ -5,17 +5,17 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{E67D13A2-22CC-4AE5-B682-0287F2CCA41D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OMSCore.WebApi", "OMSCore\OMSCore.WebApi\OMSCore.WebApi.csproj", "{1E71A7EF-77B3-4F3A-992E-B1CC74ECCA03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "OMSCore\OMSCore.WebApi\WebApi.csproj", "{1E71A7EF-77B3-4F3A-992E-B1CC74ECCA03}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{9450EF33-8104-4778-9844-F363C25B6E7D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OMSCore.Application", "OMSCore\OMSCore.Application\OMSCore.Application.csproj", "{C9D1C010-72F4-400D-A057-D2F65F6FD7E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "OMSCore\OMSCore.Application\Application.csproj", "{C9D1C010-72F4-400D-A057-D2F65F6FD7E6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OMSCore.Domain", "OMSCore\OMSCore.Domain\OMSCore.Domain.csproj", "{30AC3525-FC66-49FA-86B4-DF04C0D0175C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "OMSCore\OMSCore.Domain\Domain.csproj", "{30AC3525-FC66-49FA-86B4-DF04C0D0175C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1CF084BD-5C86-45AF-9DFD-5B506607E3CC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OMSCore.Infrastructure", "OMSCore\OMSCore.Infrastructure.Persistence\OMSCore.Infrastructure.csproj", "{8D9554C8-AB77-412E-87B6-4938BC3EDA1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "OMSCore\OMSCore.Infrastructure.Persistence\Infrastructure.csproj", "{8D9554C8-AB77-412E-87B6-4938BC3EDA1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

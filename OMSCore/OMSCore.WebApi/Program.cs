@@ -4,10 +4,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using OMSCore.Application;
-using OMSCore.Infrastructure.Persistence;
-using OMSCore.Infrastructure.Persistence.Persistence.Contexts;
-using OMSCore.WebApi.Extensions;
+using Application;
+using Infrastructure.Persistence;
+using Infrastructure.Persistence.Persistence.Contexts;
+using WebApi.Extensions;
 using System;
 using System.IO;
 try

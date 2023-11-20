@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Index("Sync", "RetryCount", "InsertedOn", "ItemNo", Name = "IDX_CancelledOrders_Sync_RetryCount")]
 [Index("ItemId", Name = "INDEX_ItemID")]

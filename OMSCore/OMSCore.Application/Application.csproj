@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OMSCore.Domain\OMSCore.Domain.csproj" />
+    <ProjectReference Include="..\OMSCore.Domain\Domain.csproj" />
   </ItemGroup>
 
 </Project>

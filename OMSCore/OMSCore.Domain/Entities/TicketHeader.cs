@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Table("TicketHeader")]
 [Index("TicketId", "TicketType", "TicketStatus", "TicketPriority", "RefundRequired", "UserAssign", "ShortClose", Name = "IDX_TicketHeader")]

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Index("AWBNo", "IsActive", Name = "IDX_ReScheduleDetails")]
 [Index("AWBNo", Name = "IDX_ReScheduleDetails_AWBNo")]

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace OMSCore.Domain.Entities;
+namespace Domain.Entities;
 
 [Table("StoreCreditMAR2023")]
 [Index("ReferenceOrderNo", Name = "StoreCreditMAR2023_ReferenceOrderNo_IDX")]
