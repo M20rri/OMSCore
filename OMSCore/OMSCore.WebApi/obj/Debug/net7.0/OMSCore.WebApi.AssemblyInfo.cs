@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("workcontrolgit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c92bb6a85a031eaad13db121765044cb14f32c43")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("OMSCore.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OMSCore.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
